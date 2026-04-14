@@ -1,0 +1,132 @@
+---
+import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Estudios - Mi Portafolio Académico">
+  <div class="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
+    <div class="absolute -top-[10%] -right-[10%] w-[50%] h-[50%] rounded-full bg-blue-100/40 dark:bg-blue-900/20 blur-[100px]"></div>
+    <div class="absolute bottom-[0%] left-[0%] w-[40%] h-[60%] rounded-full bg-purple-100/40 dark:bg-purple-900/20 blur-[100px]"></div>
+  </div>
+
+  <nav class="flex justify-between items-center p-6 max-w-5xl mx-auto w-full">
+    <a href="/" class="text-gray-900 dark:text-white font-medium flex items-center group">
+      <svg class="w-5 h-5 mr-2 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+      <span class="lang-es">Inicio</span>
+      <span class="lang-en hidden">Home</span>
+    </a>
+    
+    <div class="flex gap-4">
+      <button id="lang-toggle" class="px-3 py-1.5 text-sm font-medium rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-white/50 dark:hover:bg-gray-800 transition-colors">
+        EN / ES
+      </button>
+      <button id="theme-toggle" class="p-2 rounded-full border border-gray-300 dark:border-gray-700 hover:bg-white/50 dark:hover:bg-gray-800 transition-colors">
+        <svg id="moon-icon" class="w-5 h-5 block dark:hidden text-gray-700" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+        <svg id="sun-icon" class="w-5 h-5 hidden dark:block text-gray-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 2.32a1 1 0 011.415 0l.708.708a1 1 0 01-1.414 1.415l-.708-.708a1 1 0 010-1.415zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zm-2.32 4.22a1 1 0 010 1.415l-.708.708a1 1 0 01-1.414-1.415l.708-.708a1 1 0 011.415 0zM10 18a1 1 0 01-1-1v-1a1 1 0 112 0v1a1 1 0 01-1 1zm-4.22-2.32a1 1 0 01-1.415 0l-.708-.708a1 1 0 011.414-1.415l.708.708a1 1 0 010 1.415zM2 10a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm2.32-4.22a1 1 0 010-1.415l.708-.708a1 1 0 011.414 1.415l-.708.708a1 1 0 01-1.415 0zM10 5a5 5 0 100 10 5 5 0 000-10z" clip-rule="evenodd"></path></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="max-w-3xl mx-auto px-6 py-12">
+    <header class="mb-16">
+      <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+        <span class="lang-es text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">Formación Académica</span>
+        <span class="lang-en hidden text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">Academic Background</span>
+      </h1>
+      <p class="text-gray-600 dark:text-gray-400 text-lg">
+        <span class="lang-es">Mi trayectoria de estudios y especializaciones universitarias.</span>
+        <span class="lang-en hidden">My journey of university studies and specializations.</span>
+      </p>
+    </header>
+
+    <div class="relative border-l border-gray-200 dark:border-gray-800 ml-3">
+      
+      <div class="mb-12 ml-8">
+        <span class="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] ring-4 ring-white dark:ring-gray-950"></span>
+        <time class="mb-1 text-sm font-mono text-blue-600 dark:text-blue-400">2020 — 2024</time>
+        <div class="p-6 mt-2 bg-white/40 dark:bg-gray-900/40 backdrop-blur-xl border border-white/20 dark:border-gray-800 rounded-2xl shadow-sm">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">Doctorado en [Nombre del Campo]</h3>
+          <p class="text-emerald-600 dark:text-emerald-400 font-medium mb-3">Universidad de [Nombre]</p>
+          <div class="lang-es text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            Mención "Cum Laude". Tesis enfocada en la investigación de [Tu tema de investigación].
+          </div>
+          <div class="lang-en hidden text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            Graduated with honors. Thesis focused on research about [Your research topic].
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12 ml-8">
+        <span class="absolute w-4 h-4 bg-gray-300 dark:bg-gray-700 rounded-full -left-[9px] ring-4 ring-white dark:ring-gray-950"></span>
+        <time class="mb-1 text-sm font-mono text-gray-500">2018 — 2019</time>
+        <div class="p-6 mt-2 bg-white/40 dark:bg-gray-900/40 backdrop-blur-xl border border-white/20 dark:border-gray-800 rounded-2xl shadow-sm">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">Máster Universitario en [Nombre]</h3>
+          <p class="text-emerald-600 dark:text-emerald-400 font-medium mb-3">Universidad de [Nombre]</p>
+          <div class="lang-es text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            Especialización en investigación docente y nuevas tecnologías aplicadas.
+          </div>
+          <div class="lang-en hidden text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            Specialization in educational research and applied new technologies.
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-12 ml-8">
+        <span class="absolute w-4 h-4 bg-gray-300 dark:bg-gray-700 rounded-full -left-[9px] ring-4 ring-white dark:ring-gray-950"></span>
+        <time class="mb-1 text-sm font-mono text-gray-500">2014 — 2018</time>
+        <div class="p-6 mt-2 bg-white/40 dark:bg-gray-900/40 backdrop-blur-xl border border-white/20 dark:border-gray-800 rounded-2xl shadow-sm">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">Grado en [Tu Carrera]</h3>
+          <p class="text-emerald-600 dark:text-emerald-400 font-medium mb-3">Universidad de [Nombre]</p>
+          <div class="lang-es text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            Premio Extraordinario de Fin de Carrera.
+          </div>
+          <div class="lang-en hidden text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+            Awarded with the Extraordinary Prize for Academic Excellence.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+</Layout>
+
+<script is:inline>
+  // --- Lógica de Modo Oscuro (Persistente) ---
+  const themeBtn = document.getElementById('theme-toggle');
+  const htmlDoc = document.documentElement;
+  
+  const updateTheme = () => {
+    if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      htmlDoc.classList.add('dark');
+    } else {
+      htmlDoc.classList.remove('dark');
+    }
+  };
+
+  updateTheme();
+
+  themeBtn.addEventListener('click', () => {
+    htmlDoc.classList.toggle('dark');
+    localStorage.setItem('theme', htmlDoc.classList.contains('dark') ? 'dark' : 'light');
+  });
+
+  // --- Lógica de Idioma (Persistente) ---
+  const langBtn = document.getElementById('lang-toggle');
+  const esElements = document.querySelectorAll('.lang-es');
+  const enElements = document.querySelectorAll('.lang-en');
+  
+  let currentLang = localStorage.getItem('lang') || 'es';
+
+  function renderLanguage() {
+    esElements.forEach(el => el.classList.toggle('hidden', currentLang !== 'es'));
+    enElements.forEach(el => el.classList.toggle('hidden', currentLang !== 'en'));
+  }
+
+  renderLanguage();
+
+  langBtn.addEventListener('click', () => {
+    currentLang = currentLang === 'es' ? 'en' : 'es';
+    localStorage.setItem('lang', currentLang);
+    renderLanguage();
+  });
+</script>

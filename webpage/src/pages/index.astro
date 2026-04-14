@@ -1,0 +1,118 @@
+---
+import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+  <nav class="flex justify-end items-center p-6 gap-4 max-w-5xl mx-auto w-full">
+    <button id="lang-toggle" class="px-3 py-1.5 text-sm font-medium rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+      EN / ES
+    </button>
+    
+    <button id="theme-toggle" class="p-2 rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle Dark Mode">
+      <svg id="moon-icon" class="w-5 h-5 block dark:hidden text-gray-700" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+      <svg id="sun-icon" class="w-5 h-5 hidden dark:block text-gray-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 2.32a1 1 0 011.415 0l.708.708a1 1 0 01-1.414 1.415l-.708-.708a1 1 0 010-1.415zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zm-2.32 4.22a1 1 0 010 1.415l-.708.708a1 1 0 01-1.414-1.415l.708-.708a1 1 0 011.415 0zM10 18a1 1 0 01-1-1v-1a1 1 0 112 0v1a1 1 0 01-1 1zm-4.22-2.32a1 1 0 01-1.415 0l-.708-.708a1 1 0 011.414-1.415l.708.708a1 1 0 010 1.415zM2 10a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm2.32-4.22a1 1 0 010-1.415l.708-.708a1 1 0 011.414 1.415l-.708.708a1 1 0 01-1.415 0zM10 5a5 5 0 100 10 5 5 0 000-10z" clip-rule="evenodd"></path></svg>
+    </button>
+  </nav>
+
+  <main class="max-w-5xl mx-auto px-6 py-16 flex flex-col-reverse md:flex-row items-center gap-12 min-h-[70vh]">
+    
+    <div class="flex-1 text-center md:text-left">
+      
+      <div id="content-en" class="block">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white tracking-tight mb-4">
+          Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">Your Name</span>
+        </h1>
+        <h2 class="text-xl text-gray-600 dark:text-gray-300 font-medium mb-6">
+          Researcher & University Professor
+        </h2>
+        <p class="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
+          Welcome to my digital portfolio. I specialize in [Your Field], dedicated to advancing knowledge through research and mentoring the next generation of scientists. Explore my trajectory, directed theses, and latest publications.
+        </p>
+      </div>
+
+      <div id="content-es" class="hidden">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white tracking-tight mb-4">
+          Hola, soy <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500">Tu Nombre</span>
+        </h1>
+        <h2 class="text-xl text-gray-600 dark:text-gray-300 font-medium mb-6">
+          Investigador y Profesor Universitario
+        </h2>
+        <p class="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed max-w-lg mx-auto md:mx-0">
+          Bienvenido a mi portafolio digital. Me especializo en [Tu Campo], dedicándome a expandir el conocimiento a través de la investigación y a guiar a la próxima generación de científicos. Explora mi trayectoria, TFG dirigidos y publicaciones recientes.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap justify-center md:justify-start gap-4">
+        <a href="mailto:your.email@university.edu" class="px-5 py-2.5 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-xl font-medium hover:scale-105 transition-transform shadow-lg">
+          Email Me
+        </a>
+        <a href="https://scholar.google.com" target="_blank" class="px-5 py-2.5 bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded-xl font-medium hover:scale-105 transition-transform border border-gray-200 dark:border-gray-700 shadow-sm">
+          Google Scholar
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="px-5 py-2.5 bg-white dark:bg-gray-800 text-gray-900 dark:text-white rounded-xl font-medium hover:scale-105 transition-transform border border-gray-200 dark:border-gray-700 shadow-sm">
+          LinkedIn
+        </a>
+		<a href="/estudios" class="...">Ver mi trayectoria</a>
+      </div>
+    </div>
+
+    <div class="w-56 h-56 md:w-72 md:h-72 flex-shrink-0">
+      <div class="w-full h-full rounded-full bg-gradient-to-tr from-blue-200 to-emerald-100 dark:from-gray-700 dark:to-gray-800 p-2 shadow-2xl">
+        <img 
+          src="https://api.dicebear.com/7.x/avataaars/svg?seed=Academic" 
+          alt="Profile Photo" 
+          class="w-full h-full rounded-full object-cover border-4 border-white dark:border-gray-900"
+        />
+      </div>
+    </div>
+
+  </main>
+</Layout>
+
+<script is:inline>
+  // --- Dark Mode Logic ---
+  const themeBtn = document.getElementById('theme-toggle');
+  const htmlDoc = document.documentElement;
+  
+  // Check local storage or system preferences on load
+  if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    htmlDoc.classList.add('dark');
+  } else {
+    htmlDoc.classList.remove('dark');
+  }
+
+  // Toggle dark mode on click
+  themeBtn.addEventListener('click', () => {
+    htmlDoc.classList.toggle('dark');
+    localStorage.setItem('theme', htmlDoc.classList.contains('dark') ? 'dark' : 'light');
+  });
+
+  // --- Language Toggle Logic ---
+  const langBtn = document.getElementById('lang-toggle');
+  const contentEn = document.getElementById('content-en');
+  const contentEs = document.getElementById('content-es');
+  
+  // Get saved language or default to English
+  let currentLang = localStorage.getItem('lang') || 'en';
+
+  function renderLanguage() {
+    if (currentLang === 'en') {
+      contentEn.classList.replace('hidden', 'block');
+      contentEs.classList.replace('block', 'hidden');
+    } else {
+      contentEs.classList.replace('hidden', 'block');
+      contentEn.classList.replace('block', 'hidden');
+    }
+  }
+
+  // Apply language on load
+  renderLanguage();
+
+  // Toggle language on click
+  langBtn.addEventListener('click', () => {
+    currentLang = currentLang === 'en' ? 'es' : 'en';
+    localStorage.setItem('lang', currentLang);
+    renderLanguage();
+  });
+</script>
