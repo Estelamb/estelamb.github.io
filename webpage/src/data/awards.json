@@ -1,0 +1,45 @@
+{
+  "header": {
+    "title": { "en": "Awards & Honors", "es": "Premios y Reconocimientos" },
+    "subtitle": { 
+      "en": "Recognitions received for academic and professional excellence.", 
+      "es": "Reconocimientos obtenidos por excelencia académica y profesional." 
+    }
+  },
+  "awards": [
+    {
+      "title": { 
+        "en": "1st Prize - Telematics Engineering Category", 
+        "es": "1º Premio - Categoría Ingeniería Telemática" 
+      },
+      "prize": {
+        "en": "19th Edition of the COITT Future of Telecommunications Awards", 
+        "es": "XIX edición de los Premios COITT Futuro de las Telecomunicaciones"
+      },
+      "institution": "Colegio Oficial De Ingenieros Técnicos De Telecomunicaciones (COITT)",
+      "date": "April 2026",
+      "description": { 
+        "en": "National award granted by the COITT University Network recognizing academic excellence and innovation in Bachelor's Theses. Awarded first place for the project 'Smart management system for unmanned autonomous vehicles in precision agriculture on edge'.", 
+        "es": "Galardón a nivel nacional otorgado por la Red de Universidades del COITT que reconoce la excelencia académica y la innovación en los Trabajos de Fin de Grado. Premiada con el primer puesto por el proyecto 'Smart management system for unmanned autonomous vehicles in precision agriculture on edge'." 
+      },
+      "link": "https://www.telecos.zone/index.php/actualidad/noticias-coitt/1921-el-coitt-anuncia-los-ganadores-de-la-xix-edicion-de-los-premios-futuro-de-las-telecomunicaciones"
+    },
+    {
+      "title": { 
+        "en": "3rd Prize - Electronic Systems Engineering Category", 
+        "es": "3º Premio - Categoría Ingeniería de Sistemas Electrónicos" 
+      },
+      "prize": {
+        "en": "19th Edition of the COITT Future of Telecommunications Awards", 
+        "es": "XIX edición de los Premios COITT Futuro de las Telecomunicaciones"
+      },
+      "institution": "Colegio Oficial De Ingenieros Técnicos De Telecomunicaciones (COITT)",
+      "date": "April 2026",
+      "description": { 
+        "en": "National award granted by the COITT University Network recognizing the excellence of Bachelor's Theses in the field of telecommunications. Awarded for the project 'Device for generating prescription maps using embedded AI in precision agriculture'.", 
+        "es": "Galardón a nivel nacional otorgado por la Red de Universidades del COITT que reconoce la excelencia de los Trabajos de Fin de Grado en el ámbito de las telecomunicaciones. Premiada por el proyecto 'Device for generating prescription maps using embedded AI in precision agriculture'." 
+      },
+      "link": "https://www.telecos.zone/index.php/actualidad/noticias-coitt/1921-el-coitt-anuncia-los-ganadores-de-la-xix-edicion-de-los-premios-futuro-de-las-telecomunicaciones"
+    }
+  ]
+}

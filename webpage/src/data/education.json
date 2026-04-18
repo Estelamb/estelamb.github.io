@@ -1,0 +1,87 @@
+{
+  "header": {
+    "title": { "en": "Education", "es": "Formación" },
+    "subtitle": { 
+      "en": "Academic background, musical expertise, and professional certifications.", 
+      "es": "Trayectoria académica, especialización musical y certificaciones profesionales." 
+    }
+  },
+  "categories": {
+    "academic": { "en": "Academic Degrees", "es": "Titulaciones Académicas" },
+    "music": { "en": "Musical Education", "es": "Formación Musical" },
+    "certifications": { "en": "Certifications & Courses", "es": "Certificaciones y Cursos" },
+    "languages": { "en": "Languages", "es": "Idiomas" },
+    "misc": { "en": "Other Details", "es": "Otros Datos de Interés" }
+  },
+  "badges": {
+    "ongoing": { "en": "Ongoing", "es": "En curso" }
+  },
+  "academic": [
+    {
+      "title": { "en": "Master of Science in Internet of Things (MIoT)", "es": "Máster en Internet de las Cosas (MIoT)" },
+      "institution": "ETSIST – Universidad Politécnica de Madrid (UPM)",
+      "date": { "en": "Sep 2025 — Present", "es": "Sept 2025 — Actualidad" },
+      "current": true,
+      "link": "https://www.upm.es/estudiantes/estudios_titulaciones/estudios_master/programas?id=59.7&fmt=detail"
+    },
+    {
+      "title": { "en": "Bachelor's Degree in Electronic Communications Engineering", "es": "Grado en Ingeniería Electrónica de Comunicaciones" },
+      "institution": "ETSIST – Universidad Politécnica de Madrid (UPM)",
+      "date": { "en": "Sep 2019 — Sep 2025", "es": "Sept 2019 — Sept 2025" },
+      "current": false,
+      "prize": { "en": "3rd Prize - COITT Awards 2025", "es": "3º Premio - Premios COITT 2025" },
+      "link": "https://www.etsist.upm.es/estudios-ingenieria-sistemas-telecomunicaciones-madrid/grados-ingenieria-Madrid/electronica-comunicaciones/plan-de-estudios"
+    },
+    {
+      "title": { "en": "Bachelor's Degree in Telematics Engineering", "es": "Grado en Ingeniería Telemática" },
+      "institution": "ETSIST – Universidad Politécnica de Madrid (UPM)",
+      "date": { "en": "Sep 2019 — May 2025", "es": "Sept 2019 — Mayo 2025" },
+      "current": false,
+      "prize": { "en": "1st Prize - COITT Awards 2025", "es": "1º Premio - Premios COITT 2025" },
+      "link": "https://www.etsist.upm.es/estudios-ingenieria-sistemas-telecomunicaciones-madrid/grados-ingenieria-Madrid/telematica/plan-de-estudios"
+    }
+  ],
+  "music": [
+    {
+      "title": { "en": "Professional Music Education - Cello Specialty", "es": "Título Educación Profesional de Música (Especialidad Violoncello)" },
+      "institution": "CIEM Federico Moreno Torroba",
+      "date": { "en": "Sep 2014 — May 2022", "es": "Sept 2014 — Mayo 2022" },
+      "current": false,
+      "highlight": true,
+      "link": "https://site.educa.madrid.org/cim.morenotorroba.madrid/"
+    },
+    {
+      "title": { "en": "Elementary Music Education - Cello Specialty", "es": "Título Educación Elemental de Música (Especialidad Violoncello)" },
+      "institution": "CIEM Federico Moreno Torroba",
+      "date": { "en": "Sep 2009 — Jun 2014", "es": "Sept 2009 — Jun 2014" },
+      "current": false,
+      "link": "https://site.educa.madrid.org/cim.morenotorroba.madrid/"
+    }
+  ],
+  "certifications": [
+    {
+      "title": { "en": "Initial Course in Occupational Risk Prevention", "es": "Curso Inicial de Prevención de Riesgos Laborales" },
+      "institution": "Universidad Politécnica de Madrid (UPM)",
+      "date": { "en": "Jan 2026", "es": "Enero 2026" }
+    }
+  ],
+  "languages": [
+    {
+      "name": { "en": "Spanish", "es": "Español" },
+      "level": { "en": "Native", "es": "Nativo" },
+      "exam": ""
+    },
+    {
+      "name": { "en": "English", "es": "Inglés" },
+      "level": { "en": "B2", "es": "B2" },
+      "exam": "TOEIC"
+    }
+  ],
+  "misc": [
+    {
+      "title": { "en": "Driving License (Class B)", "es": "Permiso de Conducción B" },
+      "institution": "Dirección General de Tráfico (DGT)",
+      "date": { "en": "Mar 2026", "es": "Marzo 2026" }
+    }
+  ]
+}

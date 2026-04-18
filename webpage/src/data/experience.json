@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": { "en": "Experience", "es": "Experiencia" },
+    "subtitle": { 
+      "en": "My professional trajectory, creative endeavors, and volunteer work.", 
+      "es": "Mi trayectoria profesional, proyectos creativos y voluntariado." 
+    }
+  },
+  "categories": {
+    "professional": { "en": "Professional Experience", "es": "Experiencia Profesional" },
+    "other": { "en": "Other Experiences", "es": "Otras Experiencias" },
+    "volunteer": { "en": "Volunteer Work", "es": "Voluntariado" }
+  },
+  "badges": {
+    "ongoing": { "en": "Ongoing", "es": "En curso" }
+  },
+  "professional": [
+    {
+      "company": "Universidad Politécnica de Madrid (UPM)",
+      "roles": [
+        {
+          "title": { 
+            "en": "Research Support Technician", 
+            "es": "Técnico de Apoyo a la Investigación" 
+          },
+          "date": { "en": "Nov 2025 — Present", "es": "Nov 2025 — Actualidad" },
+          "current": true,
+          "description": { 
+            "en": "Full-time hybrid role providing technical support for research projects and laboratory deployments.", 
+            "es": "Rol a jornada completa en modelo híbrido, proporcionando soporte técnico para proyectos de investigación y despliegues." 
+          }
+        }
+      ]
+    },
+    {
+      "company": "GRyS Research Group – UPM",
+      "roles": [
+        {
+          "title": { 
+            "en": "Researcher", 
+            "es": "Investigadora" 
+          },
+          "date": { "en": "Oct 2025 — Present", "es": "Oct 2025 — Actualidad" },
+          "current": true,
+          "description": { 
+            "en": "Full-time hybrid researcher focused on advanced telematics and edge computing projects.", 
+            "es": "Investigadora a jornada completa en modelo híbrido, centrada en proyectos avanzados de telemática y edge computing." 
+          }
+        },
+        {
+          "title": { 
+            "en": "R&D Intern", 
+            "es": "Becaria de I+D" 
+          },
+          "date": { "en": "Jun 2025 — Sep 2025", "es": "Jun 2025 — Sept 2025" },
+          "current": false,
+          "description": { 
+            "en": "Part-time internship contributing to research and development initiatives within the group.", 
+            "es": "Beca a jornada parcial contribuyendo a las iniciativas de investigación y desarrollo del grupo." 
+          }
+        }
+      ]
+    }
+  ],
+  "other": [
+    {
+      "title": { "en": "Cellist", "es": "Violonchelista" },
+      "organization": "Broadway Symphony",
+      "date": { "en": "May 2024 — Present", "es": "Mayo 2024 — Actualidad" },
+      "current": true,
+      "description": { 
+        "en": "Active cellist performing in various orchestral concerts and musical productions.", 
+        "es": "Violonchelista en activo participando en diversos conciertos orquestales y producciones musicales." 
+      }
+    },
+    {
+      "title": { "en": "Cellist", "es": "Violonchelista" },
+      "organization": "Banda Sinfónica UPM",
+      "date": { "en": "Mar 2022 — Present", "es": "Marzo 2022 — Actualidad" },
+      "current": true,
+      "description": { 
+        "en": "Active member and cellist in the university's symphonic band.", 
+        "es": "Miembro activo y violonchelista en la banda sinfónica de la universidad." 
+      }
+    }
+  ],
+  "volunteer": [
+    {
+      "title": { "en": "Cellist", "es": "Violonchelista" },
+      "organization": "Fundación Elena Tertre",
+      "date": { "en": "Jun 2023", "es": "Jun 2023" },
+      "description": { 
+        "en": "Performed in a charity concert for the Elena Tertre Foundation, directed by Maestro Luis Cobos.", 
+        "es": "Participación en un concierto solidario en beneficio de la Fundación Elena Tertre, bajo la dirección del Maestro Luis Cobos." 
+      }
+    }
+  ]
+}

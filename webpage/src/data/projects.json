@@ -1,0 +1,56 @@
+{
+  "header": {
+    "title": { "en": "Projects", "es": "Proyectos" },
+    "subtitle": { 
+      "en": "A showcase of my research, technical, and academic projects.", 
+      "es": "Un escaparate de mis proyectos de investigación, técnicos y académicos." 
+    }
+  },
+  "categories": {
+    "european": { "en": "European Projects", "es": "Proyectos Europeos" },
+    "national": { "en": "National Projects", "es": "Proyectos Nacionales" },
+    "grys": { "en": "GRyS Group Projects", "es": "Proyectos del Grupo GRyS" },
+    "other": { "en": "Other Projects", "es": "Otros Proyectos" }
+  },
+  "emptyState": { 
+    "en": "Currently exploring new opportunities in this area.", 
+    "es": "Actualmente explorando nuevas oportunidades en esta área." 
+  },
+  "european": [
+    {
+      "title": { "en": "NexTArc", "es": "NexTArc" },
+      "role": { "en": "Researcher", "es": "Investigadora" },
+      "date": { "en": "Ongoing", "es": "En curso" },
+      "description": { 
+        "en": "Research and development within the NexTArc European framework, focusing on next-generation architectures and telematics.", 
+        "es": "Investigación y desarrollo dentro del marco europeo NexTArc, centrado en arquitecturas de nueva generación y telemática." 
+      },
+      "tags": ["EU Horizon", "Architecture", "IoT"]
+    }
+  ],
+  "national": [],
+  "grys": [
+    {
+      "title": { "en": "OpenTechLab", "es": "OpenTechLab" },
+      "role": { "en": "Researcher", "es": "Investigadora" },
+      "date": { "en": "Ongoing", "es": "En curso" },
+      "description": { 
+        "en": "Development and research within the OpenTechLab initiative, fostering open technology innovation at the GRyS research group.", 
+        "es": "Desarrollo e investigación en la iniciativa OpenTechLab, fomentando la innovación tecnológica abierta en el grupo GRyS." 
+      },
+      "tags": ["GRyS", "Open Source", "Hardware"]
+    }
+  ],
+  "other": [
+    {
+      "title": { "en": "Master's Projects (MIoT)", "es": "Proyectos de Máster (MIoT)" },
+      "role": { "en": "Developer", "es": "Desarrolladora" },
+      "date": { "en": "2023 — Present", "es": "2023 — Presente" },
+      "description": { 
+        "en": "Various academic and personal projects developed during the Master's in Internet of Things, focused on edge computing and sensor integration.", 
+        "es": "Diversos proyectos académicos y personales desarrollados durante el Máster en IoT, centrados en edge computing y sensores." 
+      },
+      "tags": ["MIoT", "Sensors", "Data Analytics"]
+    }
+  ]
+}

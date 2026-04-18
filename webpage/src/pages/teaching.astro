@@ -1,0 +1,189 @@
+---
+import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
+import teachingData from '../data/teaching.json';
+---
+
+<Layout title="Teaching - Estela Mora Barba">
+  <nav class="flex flex-col md:flex-row justify-between items-center p-6 gap-6 max-w-6xl mx-auto w-full">
+    <a href="/" class="text-gray-900 dark:text-white font-medium flex items-center group hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+      <svg class="w-5 h-5 mr-2 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+      <span class="lang-en block">Back to home</span>
+      <span class="lang-es hidden">Volver al inicio</span>
+    </a>
+
+    <div class="flex flex-wrap justify-center gap-4 text-sm font-medium text-gray-700 dark:text-gray-300">
+      <a href="/education" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+        <span class="lang-en block">Education</span><span class="lang-es hidden">Formación</span>
+      </a>
+      <a href="/experience" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+        <span class="lang-en block">Experience</span><span class="lang-es hidden">Experiencia</span>
+      </a>
+      <a href="/projects" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+        <span class="lang-en block">Projects</span><span class="lang-es hidden">Proyectos</span>
+      </a>
+      <a href="/teaching" class="text-blue-600 dark:text-blue-400 font-bold transition-colors">
+        <span class="lang-en block">Teaching</span><span class="lang-es hidden">Docencia</span>
+      </a>
+      <a href="/publications" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+        <span class="lang-en block">Publications</span><span class="lang-es hidden">Publicaciones</span>
+      </a>
+      <a href="/awards" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+        <span class="lang-en block">Awards</span><span class="lang-es hidden">Premios</span>
+      </a>
+      <a href="/posts" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+        <span class="lang-en block">Posts</span><span class="lang-es hidden">Posts</span>
+      </a>
+    </div>
+
+    <div class="flex items-center gap-4">
+      <button id="lang-toggle" class="px-3 py-1.5 text-sm font-medium rounded-lg border border-gray-300 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+        EN / ES
+      </button>
+      <button id="theme-toggle" class="p-2 rounded-full border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle Dark Mode">
+        <svg id="moon-icon" class="w-5 h-5 block dark:hidden text-gray-700" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+        <svg id="sun-icon" class="w-5 h-5 hidden dark:block text-gray-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 2.32a1 1 0 011.415 0l.708.708a1 1 0 01-1.414 1.415l-.708-.708a1 1 0 010-1.415zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zm-2.32 4.22a1 1 0 010 1.415l-.708.708a1 1 0 01-1.414-1.415l.708-.708a1 1 0 011.415 0zM10 18a1 1 0 01-1-1v-1a1 1 0 112 0v1a1 1 0 01-1 1zm-4.22-2.32a1 1 0 01-1.415 0l-.708-.708a1 1 0 011.414-1.415l.708.708a1 1 0 010 1.415zM2 10a1 1 0 011-1h1a1 1 0 110 2H3a1 1 0 01-1-1zm2.32-4.22a1 1 0 010-1.415l.708-.708a1 1 0 011.414 1.415l-.708.708a1 1 0 01-1.415 0zM10 5a5 5 0 100 10 5 5 0 000-10z" clip-rule="evenodd"></path></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="max-w-4xl mx-auto px-6 py-12">
+    <header class="mb-16">
+      <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-500 mb-4">
+        <span class="lang-en block">{teachingData.header?.title?.en}</span>
+        <span class="lang-es hidden">{teachingData.header?.title?.es}</span>
+      </h1>
+      <p class="text-gray-600 dark:text-gray-400 text-lg">
+        <span class="lang-en block">{teachingData.header?.subtitle?.en}</span>
+        <span class="lang-es hidden">{teachingData.header?.subtitle?.es}</span>
+      </p>
+    </header>
+
+    <section>
+      <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-8 flex items-center">
+        <svg class="w-6 h-6 mr-3 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+        <span class="lang-en block">{teachingData.categories?.supervision?.en}</span>
+        <span class="lang-es hidden">{teachingData.categories?.supervision?.es}</span>
+      </h2>
+
+      <div class="grid gap-6">
+        {teachingData.supervision && teachingData.supervision.map((item) => (
+          <div class="p-6 bg-white/40 dark:bg-gray-900/40 backdrop-blur-xl border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:border-blue-500 transition-colors flex flex-col h-full">
+            
+            <div class="flex flex-wrap items-center gap-3 mb-4">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+                <span class="lang-en block">{item.title?.en}</span>
+                <span class="lang-es hidden">{item.title?.es}</span>
+              </h3>
+              {item.current && 
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300 border border-blue-200 dark:border-blue-800 whitespace-nowrap">
+                  <span class="lang-en block">{teachingData.badges?.ongoing?.en}</span>
+                  <span class="lang-es hidden">{teachingData.badges?.ongoing?.es}</span>
+                </span>
+              }
+            </div>
+
+            <div class="flex flex-wrap gap-2 items-center text-sm mb-4">
+              <span class="text-blue-600 dark:text-blue-400 font-bold tracking-tight">
+                <span class="lang-en block">{item.type?.en}</span>
+                <span class="lang-es hidden">{item.type?.es}</span>
+              </span>
+              <span class="text-gray-400">•</span>
+              <span class="text-gray-600 dark:text-gray-300 font-medium">{item.institution}</span>
+              <span class="text-gray-400">•</span>
+              <span class="text-gray-500 font-mono">
+                <span class="lang-en block">{item.date?.en}</span>
+                <span class="lang-es hidden">{item.date?.es}</span>
+              </span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6 mb-4 text-sm bg-gray-50/50 dark:bg-gray-800/30 p-5 rounded-xl border border-gray-100 dark:border-gray-800">
+              <div>
+                <p class="text-gray-500 dark:text-gray-400 mb-1 uppercase text-[10px] font-bold tracking-widest">
+                  <span class="lang-en block">Student</span><span class="lang-es hidden">Alumno</span>
+                </p>
+                <p class="text-gray-900 dark:text-white font-medium">{item.student}</p>
+              </div>
+              
+              <div>
+                <p class="text-gray-500 dark:text-gray-400 mb-1 uppercase text-[10px] font-bold tracking-widest">
+                   <span class="lang-en block">Degree</span><span class="lang-es hidden">Carrera</span>
+                </p>
+                <p class="text-gray-900 dark:text-white font-medium">
+                  <span class="lang-en block">{item.degree?.en}</span>
+                  <span class="lang-es hidden">{item.degree?.es}</span>
+                </p>
+              </div>
+
+              {item.tutor && (
+                <div>
+                  <p class="text-gray-500 dark:text-gray-400 mb-1 uppercase text-[10px] font-bold tracking-widest">
+                    <span class="lang-en block">Official Tutor</span><span class="lang-es hidden">Tutor Oficial</span>
+                  </p>
+                  <p class="text-gray-900 dark:text-white font-medium">{item.tutor}</p>
+                </div>
+              )}
+
+              {item.director && (
+                <div>
+                  <p class="text-blue-500 dark:text-blue-400 mb-1 uppercase text-[10px] font-bold tracking-widest">
+                    <span class="lang-en block">Director</span><span class="lang-es hidden">Directora</span>
+                  </p>
+                  <p class="text-gray-900 dark:text-white font-bold">{item.director}</p>
+                </div>
+              )}
+            </div>
+
+            {item.link && item.link !== "" && item.link !== "#" && (
+              <div class="mt-auto pt-4 border-t border-gray-100 dark:border-gray-800">
+                <a href={item.link} target="_blank" class="inline-flex items-center text-sm font-medium text-blue-600 dark:text-blue-400 hover:underline">
+                  <span class="lang-en block">View Thesis Details</span>
+                  <span class="lang-es hidden">Ver Detalles del Proyecto</span>
+                  <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                </a>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+</Layout>
+
+<script is:inline>
+  const themeBtn = document.getElementById('theme-toggle');
+  const htmlDoc = document.documentElement;
+  
+  if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    htmlDoc.classList.add('dark');
+  }
+
+  themeBtn.addEventListener('click', () => {
+    htmlDoc.classList.toggle('dark');
+    localStorage.setItem('theme', htmlDoc.classList.contains('dark') ? 'dark' : 'light');
+  });
+
+  const langBtn = document.getElementById('lang-toggle');
+  const enElements = document.querySelectorAll('.lang-en');
+  const esElements = document.querySelectorAll('.lang-es');
+  
+  let currentLang = localStorage.getItem('lang') || 'en';
+
+  function renderLanguage() {
+    if (currentLang === 'en') {
+      enElements.forEach(el => { el.classList.remove('hidden'); el.classList.add('block'); });
+      esElements.forEach(el => { el.classList.add('hidden'); el.classList.remove('block'); });
+    } else {
+      esElements.forEach(el => { el.classList.remove('hidden'); el.classList.add('block'); });
+      enElements.forEach(el => { el.classList.add('hidden'); el.classList.remove('block'); });
+    }
+  }
+
+  renderLanguage();
+
+  langBtn.addEventListener('click', () => {
+    currentLang = currentLang === 'en' ? 'es' : 'en';
+    localStorage.setItem('lang', currentLang);
+    renderLanguage();
+  });
+</script>

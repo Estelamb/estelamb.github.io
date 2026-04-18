@@ -1,0 +1,21 @@
+{
+  "name": "Estela Mora Barba",
+  "institutionalEmail": "estela.mora.barba@upm.es",
+  "personalEmail": "estela.mora.barba@gmail.com",
+  "scholarLink": "https://scholar.google.es/citations?hl=es-ES&user=hbBK1TwAAAAJ&hl",
+  "linkedinLink": "https://www.linkedin.com/in/estela-mora-barba",
+  "orcidLink": "https://orcid.org/0009-0008-2098-6416",
+  "researchGateLink": "https://www.researchgate.net/profile/Estela-Mora-Barba",
+  "githubLink": "https://github.com/Estelamb",
+  "photo": "/profile.jpg",
+  "en": {
+    "degree": "Electronics & Telematics Engineer in Telecommunications",
+    "jobs": "Researcher (GRyS) | Research Support Technician (UPM)",
+    "bio": "Hi! I'm Estela 👋 An engineer passionate about connecting the physical world with the digital one.<br/><br/>I hold a degree in <b>Electronics & Telematics</b> (UPM) and I am currently specializing with a <b>Master's in Internet of Things (MIoT)</b>. I work as a researcher at the GRyS group, where I turn complex ideas into real-world tech solutions.<br/><br/>My goal? To innovate in the IoT and telecommunications sector, bringing a solid technical foundation and a creative touch (fueled by my other great passion: music!). I'm always on the lookout for the next big tech challenge. 🚀"
+  },
+  "es": {
+    "degree": "Ingeniera en Electrónica y Telemática de Telecomunicaciones",
+    "jobs": "Investigadora (GRyS) | Técnico de Apoyo (UPM)",
+    "bio": "¡Hola! Soy Estela 👋 Ingeniera apasionada por conectar el mundo físico con el digital.<br/><br/>Me gradué en <b>Electrónica y Telemática</b> (UPM) y actualmente me especializo con un <b>Máster en Internet of Things (MIoT)</b>. Trabajo como investigadora en el grupo GRyS, donde transformo ideas complejas en soluciones tecnológicas reales.<br/><br/>¿Mi objetivo? Innovar en el sector IoT y las telecomunicaciones, aportando una visión técnica sólida y un toque creativo (¡que alimento con mi otra gran pasión, la música!). Siempre estoy buscando el próximo gran reto tecnológico. 🚀"
+  }
+}

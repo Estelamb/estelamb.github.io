@@ -1,0 +1,35 @@
+{
+  "header": {
+    "title": { "en": "Teaching & Supervision", "es": "Docencia y Tutelaje" },
+    "subtitle": { 
+      "en": "Academic mentorship, thesis supervision, and educational involvement.", 
+      "es": "Mentoría académica, dirección de tesis y participación educativa." 
+    }
+  },
+  "categories": {
+    "supervision": { "en": "Thesis Supervision", "es": "Dirección de Proyectos" }
+  },
+  "badges": {
+    "ongoing": { "en": "Ongoing", "es": "En curso" }
+  },
+  "supervision": [
+    {
+      "title": { 
+        "en": "To be determined", 
+        "es": "A determinar" 
+      },
+      "type": { "en": "Bachelor's Thesis", "es": "Proyecto Fin de Grado (PFG)" },
+      "student": "Osvaldo Manuel Ferreiro Sánchez",
+      "tutor": "Vicente Hernandez Díaz",
+      "director": "Estela Mora Barba",
+      "institution": "Universidad Politécnica de Madrid (UPM)",
+      "degree": {
+        "en": "Bachelor's Degree in Electronic Communications Engineering",
+        "es": "Grado en Ingeniería Electrónica de Comunicaciones"
+      },
+      "date": { "en": "2026 — Present", "es": "2026 — Actualidad" },
+      "current": true,
+      "link": ""
+    }
+  ]
+}
