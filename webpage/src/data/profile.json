@@ -1,5 +1,6 @@
 {
   "name": "Estela Mora Barba",
+  "phone": "+34 601 29 23 85",
   "institutionalEmail": "estela.mora.barba@upm.es",
   "personalEmail": "estela.mora.barba@gmail.com",
   "scholarLink": "https://scholar.google.es/citations?hl=es-ES&user=hbBK1TwAAAAJ&hl",
@@ -8,14 +9,22 @@
   "researchGateLink": "https://www.researchgate.net/profile/Estela-Mora-Barba",
   "githubLink": "https://github.com/Estelamb",
   "photo": "/profile.jpg",
+  "cvNormal": {
+    "en": "/cv_estela_mora_en.pdf",
+    "es": "/cv_estela_mora_es.pdf"
+  },
+  "cvEuropass": {
+    "en": "/cv_estela_mora_europass_en.pdf",
+    "es": "/cv_estela_mora_europass_es.pdf"
+  },
   "en": {
-    "degree": "Electronics & Telematics Engineer in Telecommunications",
+    "degree": "Telecommunications Engineer (Electronics & Telematics)",
     "jobs": "Researcher (GRyS) | Research Support Technician (UPM)",
-    "bio": "Hi! I'm Estela 👋 An engineer passionate about connecting the physical world with the digital one.<br/><br/>I hold a degree in <b>Electronics & Telematics</b> (UPM) and I am currently specializing with a <b>Master's in Internet of Things (MIoT)</b>. I work as a researcher at the GRyS group, where I turn complex ideas into real-world tech solutions.<br/><br/>My goal? To innovate in the IoT and telecommunications sector, bringing a solid technical foundation and a creative touch (fueled by my other great passion: music!). I'm always on the lookout for the next big tech challenge. 🚀"
+    "bio": "I am an engineer specialized in Telecomunication Electronics and Telematics. Currently, I work as a researcher at the Next Generation Networks and Services Group (GRyS) and as a Research Support Technician at the Universidad Politécnica de Madrid (UPM). I am pursuing a Master's degree in Internet of Things (MIoT) and have a strong intention to continue my academic career by pursuing a PhD. My work focuses on embedded ai, edge computing, intelligent mission management and planning, and the development of architectures for autonomous systems."
   },
   "es": {
     "degree": "Ingeniera en Electrónica y Telemática de Telecomunicaciones",
     "jobs": "Investigadora (GRyS) | Técnico de Apoyo (UPM)",
-    "bio": "¡Hola! Soy Estela 👋 Ingeniera apasionada por conectar el mundo físico con el digital.<br/><br/>Me gradué en <b>Electrónica y Telemática</b> (UPM) y actualmente me especializo con un <b>Máster en Internet of Things (MIoT)</b>. Trabajo como investigadora en el grupo GRyS, donde transformo ideas complejas en soluciones tecnológicas reales.<br/><br/>¿Mi objetivo? Innovar en el sector IoT y las telecomunicaciones, aportando una visión técnica sólida y un toque creativo (¡que alimento con mi otra gran pasión, la música!). Siempre estoy buscando el próximo gran reto tecnológico. 🚀"
+    "bio": "Soy ingeniera especializada en Electrónica y Telemática de Telecomunicaciones. Actualmente, trabajo como investigadora en el Grupo de Redes y Servicios de Próxima Generación (GRyS) y como Técnico de Apoyo a la Investigación en la Universidad Politécnica de Madrid (UPM). Me encuentro cursando el Máster en Internet de las Cosas (MIoT) y tengo la firme intención de continuar mi carrera académica realizando un doctorado. Mi trabajo se centra en la ia embebida, el edge computing, la gestión y planificación de misiones y el desarrollo de arquitecturas para sistemas autónomos."
   }
 }

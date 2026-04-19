@@ -61,7 +61,7 @@ A nivel académico, quiero agradecer profundamente a mi tutor, **Néstor Lucas M
 Finalmente, un agradecimiento muy especial a mis compañeros del grupo de investigación **GRyS** por arroparme y brindarme un entorno inmejorable para crecer profesionalmente.
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 mb-4 clear-both">
-  <img src="/defensa-tel/celebracion-familia.jpeg" alt="Celebración con mi familia y pareja" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
+  <img src="/defensa-tel/celebracion-familia.jpeg" alt="Celebración con mi familia" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
   <img src="/defensa-tel/celebracion-amigos.jpeg" alt="Celebración con mis amigos" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
 </div>
 
@@ -127,7 +127,7 @@ On an academic level, I want to deeply thank my tutor, **Néstor Lucas Martínez
 Finally, a very special thanks to my colleagues from the **GRyS** research group for welcoming me and providing an unbeatable environment for professional growth.
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 mb-4 clear-both">
-  <img src="/defensa-tel/celebracion-familia.jpeg" alt="Celebration with family and partner" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
+  <img src="/defensa-tel/celebracion-familia.jpeg" alt="Celebration with family" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
   <img src="/defensa-tel/celebracion-amigos.jpeg" alt="Celebration with friends" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
 </div>
 
