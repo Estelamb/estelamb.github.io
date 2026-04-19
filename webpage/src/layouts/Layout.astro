@@ -8,11 +8,11 @@ interface Props {
 const { 
   title, 
   description = "Portfolio de Estela Mora Barba - Ingeniera de Telecomunicaciones e Investigadora en el Grupo GRyS (UPM). Especializada en Edge Computing, IA y sistemas autónomos.",
-  // Definimos la imagen por defecto como el nuevo icono que has guardado en public/
+  // Usamos el nuevo icono como imagen por defecto para redes sociales
   image = "/social-icon.png"
 } = Astro.props;
 
-// Construimos las URLs absolutas necesarias para las redes sociales
+// URLs absolutas para metadatos
 const canonicalURL = new URL(Astro.url.pathname, "https://estelamb.github.io");
 const socialImageURL = new URL(image, "https://estelamb.github.io");
 ---
@@ -23,7 +23,7 @@ const socialImageURL = new URL(image, "https://estelamb.github.io");
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <link rel="icon" type="image/jpeg" href="/profile.jpg" />
+    <link rel="icon" type="image/png" href="/social-icon.png" />
     <meta name="generator" content={Astro.generator} />
 
     <title>{title}</title>
