@@ -21,6 +21,7 @@ jobs:
         uses: withastro/action@v3
         with:
           path: ./webpage
+          node-version: 22 # <-- ¡Añade esta línea!
 
   deploy:
     needs: build
