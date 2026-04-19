@@ -2,15 +2,19 @@
 interface Props {
   title: string;
   description?: string;
+  image?: string;
 }
 
 const { 
   title, 
-  description = "Portfolio de Estela Mora Barba - Ingeniera de Telecomunicaciones e Investigadora en el Grupo GRyS (UPM). Especializada en Edge Computing, IA y sistemas autónomos."
+  description = "Portfolio de Estela Mora Barba - Ingeniera de Telecomunicaciones e Investigadora en el Grupo GRyS (UPM). Especializada en Edge Computing, IA y sistemas autónomos.",
+  // Definimos la imagen por defecto como el nuevo icono que has guardado en public/
+  image = "/social-icon.png"
 } = Astro.props;
 
-// Construimos la URL absoluta para que el enlace sea correcto
+// Construimos las URLs absolutas necesarias para las redes sociales
 const canonicalURL = new URL(Astro.url.pathname, "https://estelamb.github.io");
+const socialImageURL = new URL(image, "https://estelamb.github.io");
 ---
 
 <!doctype html>
@@ -31,11 +35,13 @@ const canonicalURL = new URL(Astro.url.pathname, "https://estelamb.github.io");
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
+    <meta property="og:image" content={socialImageURL} />
 
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:url" content={canonicalURL} />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={socialImageURL} />
   </head>
   <body class="bg-slate-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100 transition-colors duration-300 antialiased selection:bg-blue-200 selection:text-blue-900">
     <slot />
