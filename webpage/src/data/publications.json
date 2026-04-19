@@ -53,21 +53,21 @@
     {
       "title": { 
         "en": "Device for generating prescription maps using embedded AI in precision agriculture", 
-        "es": "Dispositivo para generar mapas de prescripción usando IA embebida en agricultura de precisión" 
+        "es": "Dispositivo para generar mapas de prescripción mediante IA embebida en agricultura de precisión" 
       },
       "public": true,
-      "type": { "en": "BSc Thesis (PFG)", "es": "Trabajo Fin de Grado (PFG)" },
+      "type": { "en": "Bachelor's Thesis", "es": "Proyecto Fin de Grado (PFG)" },
       "institution": "Universidad Politécnica de Madrid (UPM)",
       "study": {
-        "en": "Bachelor's Degree in Electronic Systems Engineering",
-        "es": "Grado en Ingeniería de Sistemas Electrónicos"
+        "en": "Bachelor's Degree in Electronic Communications Engineering",
+        "es": "Grado en Ingeniería Electrónica de Comunicaciones"
       },
       "tutor": "Néstor Lucas Martínez",
       "date": "September 2025",
       "link": "https://oa.upm.es/90982/",
       "description": { 
-        "en": "Development of an embedded system for real-time generation of prescription maps in precision agriculture, utilizing edge-based artificial intelligence for optimized decision-making.", 
-        "es": "Desarrollo de un sistema embebido para la generación en tiempo real de mapas de prescripción en agricultura de precisión, utilizando inteligencia artificial en el edge para la optimización de la toma de decisiones." 
+        "en": "Design and implementation of an autonomous hardware system based on a UAV that captures agricultural images, processes them locally using embedded AI (Hailo-8), and generates prescription maps in real-time via ROS2 and edge computing.", 
+        "es": "Diseño e implementación de un sistema hardware autónomo basado en un UAV que captura imágenes agrícolas, las procesa localmente con IA embebida (Hailo-8) y genera mapas de prescripción en tiempo real mediante ROS2 y computación en el edge." 
       },
       "prize": { 
         "en": "3rd Prize - Electronic Systems Category (XIX COITT Awards)", 
@@ -80,7 +80,7 @@
         "es": "Sistema inteligente de gestión para vehículos autónomos para agricultura de precisión en el edge" 
       },
       "public": true,
-      "type": { "en": "BSc Thesis (PFG)", "es": "Trabajo Fin de Grado (PFG)" },
+      "type": { "en": "Bachelor's Thesis", "es": "Proyecto Fin de Grado (PFG)" },
       "institution": "Universidad Politécnica de Madrid (UPM)",
       "study": {
         "en": "Bachelor's Degree in Telematics Engineering",
@@ -90,8 +90,8 @@
       "date": "May 2025",
       "link": "https://oa.upm.es/89100/",
       "description": { 
-        "en": "Design and implementation of an intelligent management platform for autonomous UAVs, focused on precision agriculture tasks with processing and control executed at the network edge.", 
-        "es": "Diseño e implementación de una plataforma de gestión inteligente para vehículos autónomos aéreos, enfocada en tareas de agricultura de precisión con procesamiento y control ejecutados en el edge de la red." 
+        "en": "Design and implementation of an intelligent fleet management system based on edge architecture and microservices (ROS2, gRPC) to coordinate UAV missions in precision agriculture, optimizing autonomy and sustainable resource usage.", 
+        "es": "Diseño e implementación de un sistema de gestión de flota inteligente basado en arquitectura edge y microservicios (ROS2, gRPC) para coordinar misiones de UAVs en agricultura de precisión, optimizando la autonomía y el uso sostenible de recursos." 
       },
       "prize": { 
         "en": "1st Prize - Telematics Category (XIX COITT Awards)", 

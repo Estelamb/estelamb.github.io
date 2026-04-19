@@ -71,7 +71,7 @@ import expData from '../data/experience.json';
           <div class="group">
             <div class="flex items-center mb-6">
               <div class="bg-blue-600 w-1.5 h-6 rounded-full mr-3"></div>
-              <h3 class="text-2xl font-extrabold text-gray-900 dark:text-white tracking-tight">
+              <h3 class="text-lg font-bold text-blue-600 dark:text-blue-400 tracking-tight">
                 {job.company}
               </h3>
             </div>
@@ -88,18 +88,20 @@ import expData from '../data/experience.json';
                       <span class="lang-en block">{role.date.en}</span>
                       <span class="lang-es hidden">{role.date.es}</span>
                     </time>
+                  </div>
+                  
+                  <div class="flex flex-wrap items-center gap-3 mb-2">
+                    <h4 class="text-xl font-bold text-gray-900 dark:text-white">
+                      <span class="lang-en block">{role.title.en}</span>
+                      <span class="lang-es hidden">{role.title.es}</span>
+                    </h4>
                     {role.current && 
-                      <span class="px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
+                      <span class="px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300 border border-blue-200 dark:border-blue-800 whitespace-nowrap">
                         <span class="lang-en block">{expData.badges.ongoing.en}</span>
                         <span class="lang-es hidden">{expData.badges.ongoing.es}</span>
                       </span>
                     }
                   </div>
-                  
-                  <h4 class="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                    <span class="lang-en block">{role.title.en}</span>
-                    <span class="lang-es hidden">{role.title.es}</span>
-                  </h4>
                   
                   <p class="text-gray-600 dark:text-gray-400 leading-relaxed max-w-2xl">
                     <span class="lang-en block">{role.description.en}</span>
@@ -119,22 +121,30 @@ import expData from '../data/experience.json';
         <span class="lang-en block">{expData.categories.other.en}</span>
         <span class="lang-es hidden">{expData.categories.other.es}</span>
       </h2>
-      <div class="relative border-l-2 border-pink-200 dark:border-pink-900/50 ml-3">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         {expData.other && expData.other.length ? expData.other.map((item) => (
-          <div class="mb-12 ml-8 relative last:mb-0">
-            <span class={`absolute w-4 h-4 rounded-full -left-[41px] top-1 ring-4 ring-slate-50 dark:ring-gray-950 ${item.current ? 'bg-pink-500' : 'bg-pink-300 dark:bg-pink-700'}`}>
-              {item.current && <span class="absolute inline-flex h-full w-full rounded-full bg-pink-400 opacity-75 animate-ping"></span>}
-            </span>
-            <time class="text-sm font-mono text-gray-500 dark:text-gray-400">
-              <span class="lang-en block">{item.date.en}</span>
-              <span class="lang-es hidden">{item.date.es}</span>
-            </time>
-            <h3 class="text-xl font-bold text-gray-900 dark:text-white mt-2">
-              <span class="lang-en block">{item.title.en}</span>
-              <span class="lang-es hidden">{item.title.es}</span>
-            </h3>
-            <p class="text-pink-600 dark:text-pink-400 font-medium mb-3">{item.organization}</p>
-            <p class="text-gray-600 dark:text-gray-400 leading-relaxed text-sm">
+          <div class="p-6 bg-white/40 dark:bg-gray-900/40 backdrop-blur-xl border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:border-pink-500 transition-colors">
+            <div class="flex flex-wrap items-center gap-3 mb-2">
+              <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+                <span class="lang-en block">{item.title.en}</span>
+                <span class="lang-es hidden">{item.title.es}</span>
+              </h3>
+              {item.current && 
+                <span class="px-2.5 py-0.5 rounded-full text-xs font-medium bg-pink-100 text-pink-800 dark:bg-pink-900/30 dark:text-pink-300 border border-pink-200 dark:border-pink-800">
+                  <span class="lang-en block">{expData.badges.ongoing.en}</span>
+                  <span class="lang-es hidden">{expData.badges.ongoing.es}</span>
+                </span>
+              }
+            </div>
+            <div class="flex items-center gap-2 mb-3">
+              <span class="text-pink-600 dark:text-pink-400 font-medium">{item.organization}</span>
+              <span class="text-gray-400">•</span>
+              <time class="text-sm font-mono text-gray-500 dark:text-gray-400">
+                <span class="lang-en block">{item.date.en}</span>
+                <span class="lang-es hidden">{item.date.es}</span>
+              </time>
+            </div>
+            <p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
               <span class="lang-en block">{item.description.en}</span>
               <span class="lang-es hidden">{item.description.es}</span>
             </p>
@@ -170,7 +180,6 @@ import expData from '../data/experience.json';
 </Layout>
 
 <script is:inline>
-  // Script de Idioma y Tema (Igual que los anteriores para consistencia)
   const langBtn = document.getElementById('lang-toggle');
   const enElements = document.querySelectorAll('.lang-en');
   const esElements = document.querySelectorAll('.lang-es');
