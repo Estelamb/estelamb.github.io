@@ -15,7 +15,7 @@ El pasado **27 de noviembre de 2025**, tuve la gran oportunidad de participar ju
 
 Durante la jornada, estuve a cargo de presentar una demo técnica del **OpenTechLab**, un ecosistema tecnológico avanzado que consolida años de investigación de nuestro grupo en múltiples proyectos europeos.
 
-<img src="/industry-day/demo-techlab.jpeg" alt="Demostración técnica de OpenTechLab en el Industry Day 2025" class="w-full max-h-[450px] object-cover rounded-2xl shadow-lg my-8" />
+<img src="/industry-day/explicando3.jpeg" alt="Demostración técnica de OpenTechLab en el Industry Day 2025" class="!w-[250px] !h-auto !max-h-none !object-contain rounded-xl shadow-sm float-right ml-6 mb-4 " />
 
 ## ¿Qué aporta OpenTechLab a la industria y la investigación?
 
@@ -46,11 +46,11 @@ OpenTechLab representa el firme compromiso del grupo por transferir tecnología 
 
 *Key meeting on Artificial Intelligence and applied robotics organized by CAR (CSIC-UPM).*
 
+<img src="/industry-day/explicando3.jpeg" alt="Technical demonstration of OpenTechLab at Industry Day 2025" class="!w-[250px] !h-auto !max-h-none !object-contain rounded-xl shadow-sm float-right ml-6 mb-4 " />
+
 On **November 27, 2025**, I had the great opportunity to actively participate alongside the Next Generation Networks and Services Group (**GRyS**) team from the Universidad Politécnica de Madrid (UPM) at **[Industry Day 2025 Madrid](https://aihub.csic.es/%F0%9F%A4%96industry-day-2025-inteligencia-artificial-y-robotica-aplicada-a-la-industria/)**, a event organized by the Centre for Automation and Robotics (CAR CSIC-UPM).
 
 During the event, I was in charge of presenting a technical demo of **OpenTechLab**, an advanced technological ecosystem that consolidates years of our group's research across multiple European projects.
-
-<img src="/industry-day/demo-techlab.jpeg" alt="Technical demonstration of OpenTechLab at Industry Day 2025" class="w-full max-h-[450px] object-cover rounded-2xl shadow-lg my-8" />
 
 ## What does OpenTechLab bring to industry and research?
 

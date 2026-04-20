@@ -36,8 +36,6 @@ Si en mi anterior PFG el foco fue la arquitectura de gestión, aquí el núcleo 
 
 ## La experiencia de la defensa
 
-<img src="/defensa-elec/exposicion-tribunal.jpeg" alt="Estela Mora Barba durante la exposición al tribunal de electrónica" class="w-full md:w-[45%] md:float-right md:ml-6 mb-6 mt-2 rounded-2xl shadow-lg object-cover max-h-[350px]" />
-
 Presentar este proyecto ha sido un reto técnico fascinante. He podido validar el sistema conforme a la norma ISO/IEC/IEEE 29119:2020, demostrando que el procesamiento embebido es capaz de operar bajo condiciones variables de forma estable.
 
 Los resultados demuestran que es posible utilizar hardware de bajo costo y software de código abierto para crear herramientas de agricultura sostenible, alineadas con los Objetivos de Desarrollo Sostenible (SDG).
@@ -59,8 +57,8 @@ A nivel académico, quiero expresar mi sincero agradecimiento al grupo de invest
 Finalmente, gracias a mi tutor, **Néstor Lucas Martínez**, por su guía y dedicación a lo largo de este camino.
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 mb-4 clear-both">
-  <img src="/defensa-elec/celebracion-familia.jpeg" alt="Celebración con familia" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
-  <img src="/defensa-elec/celebracion-amigos.jpeg" alt="Celebración con amigos" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
+  <img src="/defensa-elec/familia.jpeg" alt="Celebración con familia" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
+  <img src="/defensa-elec/amigos.jpeg" alt="Celebración con amigos" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
 </div>
 
 ---
@@ -100,8 +98,6 @@ While my previous PFG focused on management architecture, the core here was the 
 
 ## The Defense Experience
 
-<img src="/defensa-elec/exposicion-tribunal.jpeg" alt="Estela Mora Barba during the presentation to the tribunal" class="w-full md:w-[45%] md:float-right md:ml-6 mb-6 mt-2 rounded-2xl shadow-lg object-cover max-h-[350px]" />
-
 Presenting this project has been a fascinating technical challenge. I validated the system according to the ISO/IEC/IEEE 29119:2020 standard, demonstrating that embedded processing can operate stably under variable conditions.
 
 The results show that it is possible to use low-cost hardware and open-source software to create sustainable agriculture tools aligned with the Sustainable Development Goals (SDGs).
@@ -123,8 +119,8 @@ On an academic level, I would also like to express my sincere gratitude to the *
 Finally, thanks to my tutor, **Néstor Lucas Martínez**, for his guidance and dedication throughout this journey.
 
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 mb-4 clear-both">
-  <img src="/defensa-elec/celebracion-familia.jpeg" alt="Celebration with family" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
-  <img src="/defensa-elec/celebracion-amigos.jpeg" alt="Celebration with friends" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
+  <img src="/defensa-elec/familia.jpeg" alt="Celebration with family" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
+  <img src="/defensa-elec/amigos.jpeg" alt="Celebration with friends" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
 </div>
 
 ---

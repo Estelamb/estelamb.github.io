@@ -15,7 +15,7 @@ Hoy, **14 de mayo de 2025**, marca el cierre de una etapa increíble y el comien
 
 El título del proyecto es largo, pero define exactamente el reto al que me he enfrentado durante estos últimos meses: **["Sistema inteligente de gestión para vehículos autónomos para agricultura de precisión en el edge"](https://oa.upm.es/89100/)**.
 
-<img src="/defensa-tel/presentacion-principal.jpeg" alt="Estela Mora Barba posando tras la defensa del PFG" class="w-full max-h-[450px] object-cover rounded-2xl shadow-lg my-8" />
+<img src="/defensa-tel/principal.jpeg" alt="Estela Mora Barba posando tras la defensa del PFG" class="w-full max-h-[450px] object-cover rounded-2xl shadow-lg my-8" />
 
 ## El reto: Modernizar la agricultura desde el Edge
 
@@ -38,8 +38,6 @@ Desde el punto de vista del desarrollo de software y la arquitectura, ha sido un
 
 ## La experiencia de la defensa
 
-<img src="/defensa-tel/exposicion-tribunal.jpeg" alt="Estela Mora Barba durante la exposición al tribunal" class="w-full md:w-[45%] md:float-right md:ml-6 mb-6 mt-2 rounded-2xl shadow-lg object-cover max-h-[350px]" />
-
 Presentar el proyecto ante el tribunal siempre impone respeto, pero cuando confías en el trabajo que has construido línea a línea, los nervios se transforman en ganas de contarlo. 
 
 Durante la presentación, pude demostrar mediante simulaciones en entornos de prueba controlados cómo el sistema es capaz de actualizar dinámicamente el estado de los UAVs y mantener una latencia bajísima gracias a la arquitectura Edge. Los resultados de las pruebas (basadas en la norma ISO/IEC/IEEE 29119:2020) evidenciaron que el sistema es estable, consistente y está listo para su despliegue en escenarios reales.
@@ -60,10 +58,7 @@ A nivel académico, quiero agradecer profundamente a mi tutor, **Néstor Lucas M
 
 Finalmente, un agradecimiento muy especial a mis compañeros del grupo de investigación **GRyS** por arroparme y brindarme un entorno inmejorable para crecer profesionalmente.
 
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 mb-4 clear-both">
-  <img src="/defensa-tel/celebracion-familia.jpeg" alt="Celebración con mi familia" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
-  <img src="/defensa-tel/celebracion-amigos.jpeg" alt="Celebración con mis amigos" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
-</div>
+<img src="/defensa-tel/amigos.jpeg" alt="Celebración con mis amigos" class="w-full max-h-[450px] object-cover rounded-2xl shadow-lg my-8" />
 
 ---
 
@@ -81,7 +76,7 @@ Today, **May 14, 2025**, marks the end of an incredible stage and the beginning 
 
 The project title is long, but it exactly defines the challenge I've faced over the last few months: **["Smart management system for unmanned autonomous vehicles in precision agriculture on edge"](https://oa.upm.es/89100/)**.
 
-<img src="/defensa-tel/presentacion-principal.jpeg" alt="Estela Mora Barba posing after the PFG defense" class="w-full max-h-[450px] object-cover rounded-2xl shadow-lg my-8" />
+<img src="/defensa-tel/principal.jpeg" alt="Estela Mora Barba posing after the PFG defense" class="w-full max-h-[450px] object-cover rounded-2xl shadow-lg my-8" />
 
 ## The Challenge: Modernizing Agriculture from the Edge
 
@@ -104,8 +99,6 @@ From a software development and architecture standpoint, it has been a highly am
 
 ## The Defense Experience
 
-<img src="/defensa-tel/exposicion-tribunal.jpeg" alt="Estela Mora Barba during the presentation to the tribunal" class="w-full md:w-[45%] md:float-right md:ml-6 mb-6 mt-2 rounded-2xl shadow-lg object-cover max-h-[350px]" />
-
 Presenting the project to the tribunal always commands respect, but when you trust the work you have built line by line, nerves turn into a desire to share it. 
 
 During the presentation, I was able to demonstrate through simulations in controlled test environments how the system dynamically updates UAV states and maintains extremely low latency thanks to the Edge architecture. The test results (based on the ISO/IEC/IEEE 29119:2020 standard) showed that the system is stable, consistent, and ready for deployment in real-world scenarios.
@@ -126,10 +119,7 @@ On an academic level, I want to deeply thank my tutor, **Néstor Lucas Martínez
 
 Finally, a very special thanks to my colleagues from the **GRyS** research group for welcoming me and providing an unbeatable environment for professional growth.
 
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-12 mb-4 clear-both">
-  <img src="/defensa-tel/celebracion-familia.jpeg" alt="Celebration with family" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
-  <img src="/defensa-tel/celebracion-amigos.jpeg" alt="Celebration with friends" class="w-full h-64 md:h-80 object-cover rounded-2xl shadow-md !m-0" />
-</div>
+<img src="/defensa-tel/amigos.jpeg" alt="Celebration with friends" class="w-full max-h-[450px] object-cover rounded-2xl shadow-lg my-8" />
 
 ---
 
