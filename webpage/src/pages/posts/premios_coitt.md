@@ -31,7 +31,7 @@ De los 46 trabajos presentados a nivel nacional, he tenido la increíble suerte 
 
 ## Agradecimientos
 
-<img src="/premios-coitt/discurso.jpg" alt="Dando un discurso como ganadora de la categoría de Telemática" class="!w-[250px19!h-auto !max-h-none !object-contain rounded-xl shadow-sm float-right ml-6 mb-4 " />
+<img src="/premios-coitt/discurso.jpg" alt="Dando un discurso como ganadora de la categoría de Telemática" class="!w-[190px] !h-auto !max-h-none !object-contain rounded-xl shadow-sm float-right ml-6 mb-4 " />
 
 Es evidente que llegar hasta aquí no ha sido un camino solitario. Este logro es el resultado de mucho trabajo, pero también del apoyo incondicional de muchas personas e instituciones que han estado a mi lado.
 
@@ -84,7 +84,7 @@ Out of 46 submitted projects nationwide, I had the incredible luck and honor of 
 
 ## Acknowledgments
 
-<img src="/premios-coitt/discurso.jpg" alt="Giving a speech as a winner in the Telematics Eneering categorngiy" class="!w-[190px] !h-auto !max-h-none !object-contain rounded-xl shadow-sm float-right ml-6 mb-4 " />
+<img src="/premios-coitt/discurso.jpg" alt="Giving a speech as a winner in the Telematics Engineering category" class="!w-[190px] !h-auto !max-h-none !object-contain rounded-xl shadow-sm float-right ml-6 mb-4 " />
 
 It is clear that getting here has not been a solitary journey. This achievement is the result of a lot of hard work, but also the unconditional support of many people and institutions who have stood by me.
 
