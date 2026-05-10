@@ -79,10 +79,10 @@ const carouselPosts = [...recentPosts, ...recentPosts, ...recentPosts, ...recent
 
       {/* Solo 2 Botones CV. El JS cambiará el atributo href dependiendo del idioma */}
       <div class="flex flex-wrap justify-center md:justify-start gap-4 mb-8">
-        <a id="btn-cv-normal" 
-           href={profileData.cvNormal.en} 
-           data-en={profileData.cvNormal.en} 
-           data-es={profileData.cvNormal.es} 
+        <a id="btn-cv" 
+           href={profileData.cv.en} 
+           data-en={profileData.cv.en} 
+           data-es={profileData.cv.es} 
            target="_blank" download 
            class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-lg shadow-sm transition-colors">
           <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
@@ -90,15 +90,15 @@ const carouselPosts = [...recentPosts, ...recentPosts, ...recentPosts, ...recent
           <span class="lang-es hidden">Descargar CV</span>
         </a>
         
-        <a id="btn-cv-europass" 
-           href={profileData.cvEuropass.en} 
-           data-en={profileData.cvEuropass.en} 
-           data-es={profileData.cvEuropass.es} 
+        <a id="btn-cvn" 
+           href={profileData.cvn.en} 
+           data-en={profileData.cvn.en} 
+           data-es={profileData.cvn.es} 
            target="_blank" download 
            class="inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-gray-700 bg-white dark:text-gray-200 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg shadow-sm transition-colors">
           <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
-          <span class="lang-en block">Europass CV</span>
-          <span class="lang-es hidden">CV Europass</span>
+          <span class="lang-en block">Download CVN</span>
+          <span class="lang-es hidden">Descargar CVN</span>
         </a>
       </div>
 
@@ -208,8 +208,8 @@ const carouselPosts = [...recentPosts, ...recentPosts, ...recentPosts, ...recent
   const enElements = document.querySelectorAll('.lang-en');
   const esElements = document.querySelectorAll('.lang-es');
   
-  const btnCvNormal = document.getElementById('btn-cv-normal');
-  const btnCvEuropass = document.getElementById('btn-cv-europass');
+  const btnCv = document.getElementById('btn-cv');
+  const btnCvn = document.getElementById('btn-cvn');
 
   let currentLang = localStorage.getItem('lang') || 'en';
 
@@ -219,15 +219,15 @@ const carouselPosts = [...recentPosts, ...recentPosts, ...recentPosts, ...recent
       esElements.forEach(el => el.classList.add('hidden'));
       
       // Actualizar Links de los CVs
-      if(btnCvNormal) btnCvNormal.href = btnCvNormal.getAttribute('data-en');
-      if(btnCvEuropass) btnCvEuropass.href = btnCvEuropass.getAttribute('data-en');
+      if(btnCv) btnCv.href = btnCv.getAttribute('data-en');
+      if(btnCvn) btnCvn.href = btnCvn.getAttribute('data-en');
     } else {
       esElements.forEach(el => el.classList.remove('hidden'));
       enElements.forEach(el => el.classList.add('hidden'));
 
       // Actualizar Links de los CVs
-      if(btnCvNormal) btnCvNormal.href = btnCvNormal.getAttribute('data-es');
-      if(btnCvEuropass) btnCvEuropass.href = btnCvEuropass.getAttribute('data-es');
+      if(btnCv) btnCv.href = btnCv.getAttribute('data-es');
+      if(btnCvn) btnCvn.href = btnCvn.getAttribute('data-es');
     }
   }
 
