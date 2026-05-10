@@ -13,17 +13,17 @@
     "es": "/cv_estela_mora_es.pdf"
   },
   "cvEuropass": {
-    "en": "/cv_estela_mora_europass_en.pdf",
-    "es": "/cv_estela_mora_europass_es.pdf"
+    "en": "/cvn_estela_mora_en.pdf",
+    "es": "/cvn_estela_mora_es.pdf"
   },
   "en": {
     "degree": "Telecommunications Engineer (Electronics & Telematics)",
     "jobs": "Researcher (GRyS) | Research Support Technician (UPM)",
-    "bio": "I am an engineer specialized in Telecomunication Electronics and Telematics. Currently, I work as a researcher at the Next Generation Networks and Services Group (GRyS) and as a Research Support Technician at the Universidad Politécnica de Madrid (UPM). I am pursuing a Master's degree in Internet of Things (MIoT) and have a strong intention to continue my academic career by pursuing a PhD. My work focuses on embedded ai, edge computing, intelligent mission management and planning, and the development of architectures for autonomous systems."
+    "bio": "I am a Telecomunications engineer specialized in Electronics and Telematics. Currently, I work as a researcher at the Next Generation Networks and Services Group (GRyS) and as a Research Support Technician at the Universidad Politécnica de Madrid (UPM). I am pursuing a Master's degree in Internet of Things (MIoT) and have a strong intention to continue my academic career by pursuing a PhD. My work focuses on embedded ai, edge computing, intelligent mission management and planning, and the development of architectures for autonomous systems."
   },
   "es": {
-    "degree": "Ingeniera en Electrónica y Telemática de Telecomunicaciones",
+    "degree": "Ingeniera en Telecomunicaciones (Electrónica y Telemática)",
     "jobs": "Investigadora (GRyS) | Técnico de Apoyo (UPM)",
-    "bio": "Soy ingeniera especializada en Electrónica y Telemática de Telecomunicaciones. Actualmente, trabajo como investigadora en el Grupo de Redes y Servicios de Próxima Generación (GRyS) y como Técnico de Apoyo a la Investigación en la Universidad Politécnica de Madrid (UPM). Me encuentro cursando el Máster en Internet de las Cosas (MIoT) y tengo la firme intención de continuar mi carrera académica realizando un doctorado. Mi trabajo se centra en la ia embebida, el edge computing, la gestión y planificación de misiones y el desarrollo de arquitecturas para sistemas autónomos."
+    "bio": "Soy ingeniera de Telecomunicaciones especializada en Electrónica y Telemática. Actualmente, trabajo como investigadora en el Grupo de Redes y Servicios de Próxima Generación (GRyS) y como Técnico de Apoyo a la Investigación en la Universidad Politécnica de Madrid (UPM). Me encuentro cursando el Máster en Internet de las Cosas (MIoT) y tengo la firme intención de continuar mi carrera académica realizando un doctorado. Mi trabajo se centra en la ia embebida, el edge computing, la gestión y planificación de misiones y el desarrollo de arquitecturas para sistemas autónomos."
   }
 }
