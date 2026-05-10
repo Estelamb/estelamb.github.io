@@ -8,11 +8,11 @@
   "researchGateLink": "https://www.researchgate.net/profile/Estela-Mora-Barba",
   "githubLink": "https://github.com/Estelamb",
   "photo": "/profile.jpg",
-  "cvNormal": {
+  "cv": {
     "en": "/cv_estela_mora_en.pdf",
     "es": "/cv_estela_mora_es.pdf"
   },
-  "cvEuropass": {
+  "cvn": {
     "en": "/cvn_estela_mora_en.pdf",
     "es": "/cvn_estela_mora_es.pdf"
   },
