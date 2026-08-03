@@ -1,62 +1,101 @@
 {
   "header": {
-    "title": { "en": "Publications & Research", "es": "Publicaciones e Investigación" },
-    "subtitle": { 
-      "en": "Scientific articles, software registrations, and academic theses.", 
-      "es": "Artículos científicos, registros de software y tesis académicas." 
+    "title": {
+      "en": "Publications & Research",
+      "es": "Publicaciones e Investigación"
+    },
+    "subtitle": {
+      "en": "Scientific articles, software registrations, and academic theses.",
+      "es": "Artículos científicos, registros de software y tesis académicas."
     }
   },
   "categories": {
-    "papers": { "en": "Scientific Papers", "es": "Artículos Científicos" },
-    "software": { "en": "Software Registrations", "es": "Registros de Software" },
-    "other": { "en": "Academic Theses & Others", "es": "Tesis Académicas y Otros" }
+    "papers": {
+      "en": "Scientific Papers",
+      "es": "Artículos Científicos"
+    },
+    "software": {
+      "en": "Software Registrations",
+      "es": "Registros de Software"
+    },
+    "other": {
+      "en": "Academic Theses & Others",
+      "es": "Tesis Académicas y Otros"
+    }
   },
-  "emptyState": { 
-    "en": "Currently preparing materials for publication.", 
-    "es": "Actualmente preparando material para su publicación." 
+  "emptyState": {
+    "en": "Currently preparing materials for publication.",
+    "es": "Actualmente preparando material para su publicación."
   },
   "papers": [
     {
-      "title": { 
-        "en": "Your Paper Title in English Goes Here", 
-        "es": "El Título de tu Artículo en Español Va Aquí" 
+      "title": {
+        "en": "Your Paper Title in English Goes Here",
+        "es": "El Título de tu Artículo en Español Va Aquí"
       },
       "public": false,
       "authors": "E. Mora-Barba, A. Co-Author, B. Co-Author",
       "journal": "Name of the Journal or Conference (e.g., IEEE Internet of Things Journal)",
       "date": "2024",
       "link": "https://doi.org/10.xxxx/xxxxx",
-      "description": { 
-        "en": "A brief summary of the paper's main contributions, methodology, and key findings.", 
-        "es": "Un breve resumen de las principales contribuciones, metodología y resultados del artículo." 
+      "description": {
+        "en": "A brief summary of the paper's main contributions, methodology, and key findings.",
+        "es": "Un breve resumen de las principales contribuciones, metodología y resultados del artículo."
       }
     }
   ],
   "software": [
     {
-      "title": { 
-        "en": "Secret Upcoming Software", 
-        "es": "Software Secreto Próximamente" 
+      "title": {
+        "en": "Secret Upcoming Software",
+        "es": "Software Secreto Próximamente"
       },
       "public": false,
       "authors": "E. Mora-Barba",
       "registry": "Pending",
       "date": "2025",
       "link": "",
-      "description": { 
-        "en": "This will not appear on the website.", 
-        "es": "Esto no aparecerá en la web porque public es false." 
+      "description": {
+        "en": "This will not appear on the website.",
+        "es": "Esto no aparecerá en la web porque public es false."
       }
     }
   ],
   "other": [
     {
-      "title": { 
-        "en": "Device for generating prescription maps using embedded AI in precision agriculture", 
-        "es": "Dispositivo para generar mapas de prescripción mediante IA embebida en agricultura de precisión" 
+      "title": {
+        "en": "AURA: An AI Inference and Automated Deployment MLOps Platform for IoT across the Edge-Cloud Continuum",
+        "es": "AURA: Plataforma MLOps de inferencia de IA y despliegue automatizado para IoT en el continuum Edge-Cloud"
       },
       "public": true,
-      "type": { "en": "Bachelor's Thesis", "es": "Proyecto Fin de Grado (PFG)" },
+      "type": {
+        "en": "Master's Thesis",
+        "es": "Trabajo Fin de Máster (TFM)"
+      },
+      "institution": "Universidad Politécnica de Madrid (UPM)",
+      "study": {
+        "en": "Master of Science in Internet of Things (MIoT)",
+        "es": "Máster en Internet de las Cosas (MIoT)"
+      },
+      "tutor": "Vicente Hernández Díaz",
+      "director": "Néstor Lucas Martínez",
+      "date": "July 2026",
+      "link": "https://oa.upm.es/97405/",
+      "description": {
+        "en": "Developed as part of the Horizon Europe NexTArc project, this Master's Thesis presents AURA (AI Unified Runtime & Analytics), a distributed MLOps platform engineered to orchestrate the entire lifecycle of AI models across the Edge-Cloud Continuum using IoT Devices. By abstracting hardware-specific deployment complexities and processing inference locally at the edge, AURA enables real-time decision-making with a strict 'Privacy by Design' architecture for sustainable smart cities.",
+        "es": "Desarrollado como parte del proyecto Horizon Europe NexTArc, este Trabajo Fin de Máster presenta AURA (AI Unified Runtime & Analytics), una plataforma MLOps distribuida diseñada para orquestar el ciclo de vida completo de modelos de IA en el continuum Edge-Cloud. Al abstraer la complejidad del despliegue específico en hardware heterogéneo y procesar la inferencia localmente en el edge, AURA permite la toma de decisiones en tiempo real bajo una estricta arquitectura de 'Privacidad desde el Diseño' para ciudades inteligentes sostenibles."
+      }
+    },
+    {
+      "title": {
+        "en": "Device for generating prescription maps using embedded AI in precision agriculture",
+        "es": "Dispositivo para generar mapas de prescripción mediante IA embebida en agricultura de precisión"
+      },
+      "public": true,
+      "type": {
+        "en": "Bachelor's Thesis",
+        "es": "Proyecto Fin de Grado (PFG)"
+      },
       "institution": "Universidad Politécnica de Madrid (UPM)",
       "study": {
         "en": "Bachelor's Degree in Electronic Communications Engineering",
@@ -65,22 +104,25 @@
       "tutor": "Néstor Lucas Martínez",
       "date": "September 2025",
       "link": "https://oa.upm.es/90982/",
-      "description": { 
-        "en": "Design and implementation of an autonomous hardware system based on a UAV that captures agricultural images, processes them locally using embedded AI (Hailo-8), and generates prescription maps in real-time via ROS2 and edge computing.", 
-        "es": "Diseño e implementación de un sistema hardware autónomo basado en un UAV que captura imágenes agrícolas, las procesa localmente con IA embebida (Hailo-8) y genera mapas de prescripción en tiempo real mediante ROS2 y computación en el edge." 
+      "description": {
+        "en": "Design and implementation of an autonomous hardware system based on a UAV that captures agricultural images, processes them locally using embedded AI (Hailo-8), and generates prescription maps in real-time via ROS2 and edge computing.",
+        "es": "Diseño e implementación de un sistema hardware autónomo basado en un UAV que captura imágenes agrícolas, las procesa localmente con IA embebida (Hailo-8) y genera mapas de prescripción en tiempo real mediante ROS2 y computación en el edge."
       },
-      "prize": { 
-        "en": "3rd Prize - Electronic Systems Category (XIX COITT Awards)", 
-        "es": "3º Premio - Categoría Sistemas Electrónicos (XIX Premios COITT)" 
+      "prize": {
+        "en": "3rd Prize - Electronic Systems Category (XIX COITT Awards)",
+        "es": "3º Premio - Categoría Sistemas Electrónicos (XIX Premios COITT)"
       }
     },
     {
-      "title": { 
-        "en": "Smart management system for unmanned autonomous vehicles in precision agriculture on edge", 
-        "es": "Sistema inteligente de gestión para vehículos autónomos para agricultura de precisión en el edge" 
+      "title": {
+        "en": "Smart management system for unmanned autonomous vehicles in precision agriculture on edge",
+        "es": "Sistema inteligente de gestión para vehículos autónomos para agricultura de precisión en el edge"
       },
       "public": true,
-      "type": { "en": "Bachelor's Thesis", "es": "Proyecto Fin de Grado (PFG)" },
+      "type": {
+        "en": "Bachelor's Thesis",
+        "es": "Proyecto Fin de Grado (PFG)"
+      },
       "institution": "Universidad Politécnica de Madrid (UPM)",
       "study": {
         "en": "Bachelor's Degree in Telematics Engineering",
@@ -89,13 +131,13 @@
       "tutor": "Néstor Lucas Martínez",
       "date": "May 2025",
       "link": "https://oa.upm.es/89100/",
-      "description": { 
-        "en": "Design and implementation of an intelligent fleet management system based on edge architecture and microservices (ROS2, gRPC) to coordinate UAV missions in precision agriculture, optimizing autonomy and sustainable resource usage.", 
-        "es": "Diseño e implementación de un sistema de gestión de flota inteligente basado en arquitectura edge y microservicios (ROS2, gRPC) para coordinar misiones de UAVs en agricultura de precisión, optimizando la autonomía y el uso sostenible de recursos." 
+      "description": {
+        "en": "Design and implementation of an intelligent fleet management system based on edge architecture and microservices (ROS2, gRPC) to coordinate UAV missions in precision agriculture, optimizing autonomy and sustainable resource usage.",
+        "es": "Diseño e implementación de un sistema de gestión de flota inteligente basado en arquitectura edge y microservicios (ROS2, gRPC) para coordinar misiones de UAVs en agricultura de precisión, optimizando la autonomía y el uso sostenible de recursos."
       },
-      "prize": { 
-        "en": "1st Prize - Telematics Category (XIX COITT Awards)", 
-        "es": "1º Premio - Categoría Telemática (XIX Premios COITT)" 
+      "prize": {
+        "en": "1st Prize - Telematics Category (XIX COITT Awards)",
+        "es": "1º Premio - Categoría Telemática (XIX Premios COITT)"
       }
     }
   ]

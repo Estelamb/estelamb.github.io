@@ -1,75 +1,189 @@
 {
   "header": {
-    "title": { "en": "Projects", "es": "Proyectos" },
-    "subtitle": { 
-      "en": "A showcase of my research, technical, and academic projects.", 
-      "es": "Un escaparate de mis proyectos de investigación, técnicos y académicos." 
+    "title": {
+      "en": "Projects",
+      "es": "Proyectos"
+    },
+    "subtitle": {
+      "en": "A showcase of my research, technical, and academic projects.",
+      "es": "Un escaparate de mis proyectos de investigación, técnicos y académicos."
     }
   },
   "categories": {
-    "european": { "en": "European Projects", "es": "Proyectos Europeos" },
-    "national": { "en": "National Projects", "es": "Proyectos Nacionales" },
-    "grys": { "en": "GRyS Group Projects", "es": "Proyectos del Grupo GRyS" },
-    "other": { "en": "Other Projects", "es": "Otros Proyectos" }
+    "european": {
+      "en": "European Projects",
+      "es": "Proyectos Europeos"
+    },
+    "national": {
+      "en": "National Projects",
+      "es": "Proyectos Nacionales"
+    },
+    "grys": {
+      "en": "GRyS Group Projects",
+      "es": "Proyectos del Grupo GRyS"
+    },
+    "other": {
+      "en": "Other Projects",
+      "es": "Otros Proyectos"
+    }
   },
-  "emptyState": { 
-    "en": "Currently exploring new opportunities in this area.", 
-    "es": "Actualmente explorando nuevas oportunidades en esta área." 
+  "emptyState": {
+    "en": "Currently exploring new opportunities in this area.",
+    "es": "Actualmente explorando nuevas oportunidades en esta área."
   },
   "european": [
     {
-      "title": { "en": "NexTArc", "es": "NexTArc" },
-      "role": { "en": "Researcher", "es": "Investigadora" },
-      "date": { "en": "2025 - 2028", "es": "2025 - 2028" },
-      "status": { "en": "Ongoing", "es": "En curso" },
-      "description": { 
-        "en": "European project focused on next-generation computing architectures, embedded systems, and semiconductor technologies for smart mobility. My role within Use Case 3.3 involves integrating Urban Digital Twins and edge computing to strengthen situational awareness for automated vehicles.", 
-        "es": "Proyecto europeo enfocado en arquitecturas de computación de nueva generación, sistemas embebidos y tecnologías de semiconductores para la movilidad inteligente. Mi rol en el Caso de Uso 3.3 involucra integrar Gemelos Digitales Urbanos y edge computing para reforzar la conciencia situacional de los vehículos automatizados." 
+      "title": {
+        "en": "NexTArc",
+        "es": "NexTArc"
+      },
+      "role": {
+        "en": "Researcher",
+        "es": "Investigadora"
+      },
+      "date": {
+        "en": "2025 - 2028",
+        "es": "2025 - 2028"
+      },
+      "status": {
+        "en": "Ongoing",
+        "es": "En curso"
+      },
+      "description": {
+        "en": "European project focused on next-generation computing architectures, embedded systems, and semiconductor technologies for smart mobility. My role within Use Case 3.3 involves integrating Urban Digital Twins and edge computing to strengthen situational awareness for automated vehicles.",
+        "es": "Proyecto europeo enfocado en arquitecturas de computación de nueva generación, sistemas embebidos y tecnologías de semiconductores para la movilidad inteligente. Mi rol en el Caso de Uso 3.3 involucra integrar Gemelos Digitales Urbanos y edge computing para reforzar la conciencia situacional de los vehículos automatizados."
       },
       "link": "https://nextarc.eu/",
       "logo": "/proyectos/nextarc.png",
-      "tags": ["EU Horizon", "Chips JU", "Smart Cities", "Digital Twins"]
+      "tags": [
+        "EU Horizon",
+        "Chips JU",
+        "Smart Cities",
+        "Digital Twins"
+      ]
     }
   ],
   "national": [],
   "grys": [
     {
-      "title": { "en": "OpenTechLab", "es": "OpenTechLab" },
-      "role": { "en": "Researcher", "es": "Investigadora" },
-      "date": { "en": "Present", "es": "Presente" },
-      "status": { "en": "Ongoing", "es": "En curso" },
-      "description": { 
-        "en": "Advanced technological ecosystem providing open-source tools for autonomous vehicle management operating between Edge and Cloud. Contributions include mission management for UAV swarms using ROS2, intelligent data pipelines, and semantic interoperability.", 
-        "es": "Ecosistema tecnológico avanzado que proporciona herramientas de código abierto para la gestión de vehículos autónomos entre el Edge y el Cloud. Las contribuciones incluyen la gestión de misiones para enjambres de UAVs mediante ROS2, pipelines de datos inteligentes e interoperabilidad semántica." 
+      "title": {
+        "en": "OpenTechLab",
+        "es": "OpenTechLab"
+      },
+      "role": {
+        "en": "Researcher",
+        "es": "Investigadora"
+      },
+      "date": {
+        "en": "Present",
+        "es": "Presente"
+      },
+      "status": {
+        "en": "Ongoing",
+        "es": "En curso"
+      },
+      "description": {
+        "en": "Advanced technological ecosystem providing open-source tools for autonomous vehicle management operating between Edge and Cloud. Contributions include mission management for UAV swarms using ROS2, intelligent data pipelines, and semantic interoperability.",
+        "es": "Ecosistema tecnológico avanzado que proporciona herramientas de código abierto para la gestión de vehículos autónomos entre el Edge y el Cloud. Las contribuciones incluyen la gestión de misiones para enjambres de UAVs mediante ROS2, pipelines de datos inteligentes e interoperabilidad semántica."
       },
       "logo": "/proyectos/opentechlab.png",
-      "tags": ["GRyS", "Open Source", "Autonomous Vehicles", "Edge Computing"]
+      "tags": [
+        "GRyS",
+        "Open Source",
+        "Autonomous Vehicles",
+        "Edge Computing"
+      ]
     }
   ],
   "other": [
     {
-      "title": { "en": "Fleet Manager", "es": "Fleet Manager" },
-      "role": { "en": "Developer", "es": "Desarrolladora" },
-      "date": { "en": "2025", "es": "2025" },
-      "status": { "en": "Finished", "es": "Finalizado" },
-      "description": { 
-        "en": "Platform for planning, monitoring, and executing missions with multiple autonomous UAVs, featuring real-time vehicle management and task dependency resolution at the edge.", 
-        "es": "Plataforma para la planificación, monitorización y ejecución de misiones con múltiples UAVs autónomos, con gestión de vehículos en tiempo real y resolución de dependencias entre tareas en el edge." 
+      "title": {
+        "en": "AURA (AI Unified Runtime & Analytics)",
+        "es": "AURA (AI Unified Runtime & Analytics)"
       },
-      "link": "https://github.com/grys-upm/opentechlab-fleet-manager",
-      "tags": ["Fleet Management", "Edge Computing", "Mission Management", "Dependencies Resolution"]
+      "role": {
+        "en": "Developer & Lead Researcher",
+        "es": "Desarrolladora e Investigadora Principal"
+      },
+      "date": {
+        "en": "2026",
+        "es": "2026"
+      },
+      "status": {
+        "en": "Ongoing",
+        "es": "En curso"
+      },
+      "description": {
+        "en": "A distributed MLOps platform developed within the Horizon Europe NexTArc project to orchestrate the entire lifecycle of AI models across the Edge-Cloud Continuum.",
+        "es": "Plataforma MLOps distribuida desarrollada en el proyecto europeo Horizon Europe NexTArc para orquestar el ciclo de vida completo de modelos de IA en el continuum Edge-Cloud."
+      },
+      "link": "https://github.com/grys-upm/NexTArc-AURA",
+      "tags": [
+        "MLOps",
+        "Edge-Cloud Continuum",
+        "Embedded AI",
+        "Privacy by Design",
+        "NexTArc",
+        "IoT"
+      ]
     },
     {
-      "title": { "en": "SmartPM", "es": "SmartPM" },
-      "role": { "en": "Developer", "es": "Desarrolladora" },
-      "date": { "en": "2025", "es": "2025" },
-      "status": { "en": "Finished", "es": "Finalizado" },
-      "description": { 
-        "en": "Autonomous hardware system based on a UAV capable of capturing images, processing them locally using embedded AI models (Hailo-8/8L), and generating prescription maps in real-time.", 
-        "es": "Sistema hardware autónomo basado en un UAV capaz de capturar imágenes, procesarlas localmente mediante modelos de IA embebida (Hailo-8/8L) y generar mapas de prescripción en tiempo real." 
+      "title": {
+        "en": "SmartPM",
+        "es": "SmartPM"
+      },
+      "role": {
+        "en": "Developer",
+        "es": "Desarrolladora"
+      },
+      "date": {
+        "en": "2025",
+        "es": "2025"
+      },
+      "status": {
+        "en": "Finished",
+        "es": "Finalizado"
+      },
+      "description": {
+        "en": "Autonomous hardware system based on a UAV capable of capturing images, processing them locally using embedded AI models (Hailo-8/8L), and generating prescription maps in real-time.",
+        "es": "Sistema hardware autónomo basado en un UAV capaz de capturar imágenes, procesarlas localmente mediante modelos de IA embebida (Hailo-8/8L) y generar mapas de prescripción en tiempo real."
       },
       "link": "https://github.com/grys-upm/opentechlab-smartpm",
-      "tags": ["Embedded AI", "Prescription Map", "RPI5", "Hailo-8/8L"]
+      "tags": [
+        "Embedded AI",
+        "Prescription Map",
+        "RPI5",
+        "Hailo-8/8L"
+      ]
+    },
+    {
+      "title": {
+        "en": "Fleet Manager",
+        "es": "Fleet Manager"
+      },
+      "role": {
+        "en": "Developer",
+        "es": "Desarrolladora"
+      },
+      "date": {
+        "en": "2025",
+        "es": "2025"
+      },
+      "status": {
+        "en": "Finished",
+        "es": "Finalizado"
+      },
+      "description": {
+        "en": "Platform for planning, monitoring, and executing missions with multiple autonomous UAVs, featuring real-time vehicle management and task dependency resolution at the edge.",
+        "es": "Plataforma para la planificación, monitorización y ejecución de misiones con múltiples UAVs autónomos, con gestión de vehículos en tiempo real y resolución de dependencias entre tareas en el edge."
+      },
+      "link": "https://github.com/grys-upm/opentechlab-fleet-manager",
+      "tags": [
+        "Fleet Management",
+        "Edge Computing",
+        "Mission Management",
+        "Dependencies Resolution"
+      ]
     }
   ]
 }

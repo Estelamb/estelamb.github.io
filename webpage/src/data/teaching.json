@@ -1,24 +1,74 @@
 {
   "header": {
-    "title": { "en": "Teaching & Supervision", "es": "Docencia y Tutelaje" },
-    "subtitle": { 
-      "en": "Academic mentorship, thesis supervision, and educational involvement.", 
-      "es": "Mentoría académica, dirección de tesis y participación educativa." 
+    "title": {
+      "en": "Teaching & Mentorship",
+      "es": "Docencia y Mentoría"
+    },
+    "subtitle": {
+      "en": "Academic mentorship, teaching collaboration, and thesis supervision.",
+      "es": "Mentoría académica, colaboración docente y dirección de proyectos."
     }
   },
   "categories": {
-    "supervision": { "en": "Thesis Supervision", "es": "Dirección de Proyectos" }
+    "collaboration": {
+      "en": "Teaching Collaboration",
+      "es": "Colaboración Docente"
+    },
+    "supervision": {
+      "en": "Thesis Supervision",
+      "es": "Dirección de Proyectos"
+    }
   },
   "badges": {
-    "ongoing": { "en": "Ongoing", "es": "En curso" }
+    "ongoing": {
+      "en": "Ongoing",
+      "es": "En curso"
+    }
   },
+  "collaboration": [
+    {
+      "subject": {
+        "en": "Operating Systems",
+        "es": "Sistemas Operativos"
+      },
+      "professor": "Néstor Lucas Martínez",
+      "date": {
+        "en": "Autumn 2026",
+        "es": "Otoño 2026"
+      },
+      "institution": "ETSIST - Universidad Politécnica de Madrid (UPM)",
+      "content": {
+        "en": "1. Operating System Architecture and Systems Programming<br/>2. Concurrency and Synchronization in Multitasking Environments<br/>3. Virtualization and Service Deployment",
+        "es": "1. Arquitectura del Sistema Operativo y Programación de Sistemas<br/>2. Concurrencia y Sincronización en Entornos Multitarea<br/>3. Virtualización y Despliegue de Servicios"
+      }
+    },
+    {
+      "subject": {
+        "en": "Advanced Telematics Applications (ATA)",
+        "es": "Aplicaciones Telemáticas Avanzadas (ATA)"
+      },
+      "professor": "José Fernán Martínez Ortega",
+      "date": {
+        "en": "Spring 2027",
+        "es": "Primavera 2027"
+      },
+      "institution": "ETSIST - Universidad Politécnica de Madrid (UPM)",
+      "content": {
+        "en": "1. Technologies for Robotics<br/>2. Robotics: Intelligent Systems and Robotics<br/>3. Robotics: Action Planning<br/>4. Robotics: Cognition",
+        "es": "1. Tecnologías para Robótica<br/>2. Robótica: Sistemas y Robótica Inteligente<br/>3. Robótica: Planificación de Acciones<br/>4. Robótica: Cognición"
+      }
+    }
+  ],
   "supervision": [
     {
-      "title": { 
-        "en": "To be determined", 
-        "es": "A determinar" 
+      "title": {
+        "en": "To be determined",
+        "es": "A determinar"
       },
-      "type": { "en": "Bachelor's Thesis", "es": "Proyecto Fin de Grado (PFG)" },
+      "type": {
+        "en": "Bachelor's Thesis",
+        "es": "Proyecto Fin de Grado (PFG)"
+      },
       "student": "Osvaldo Manuel Ferreiro Sánchez",
       "tutor": "Vicente Hernandez Díaz",
       "director": "Estela Mora Barba",
@@ -27,7 +77,10 @@
         "en": "Bachelor's Degree in Electronic Communications Engineering",
         "es": "Grado en Ingeniería Electrónica de Comunicaciones"
       },
-      "date": { "en": "2026 — Present", "es": "2026 — Actualidad" },
+      "date": {
+        "en": "2026 — Present",
+        "es": "2026 — Actualidad"
+      },
       "current": true,
       "link": ""
     }
