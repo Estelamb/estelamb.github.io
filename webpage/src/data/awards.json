@@ -1,43 +1,80 @@
 {
   "header": {
-    "title": { "en": "Awards & Honors", "es": "Premios y Reconocimientos" },
-    "subtitle": { 
-      "en": "Recognitions received for academic and professional excellence.", 
-      "es": "Reconocimientos obtenidos por excelencia académica y profesional." 
+    "title": {
+      "en": "Awards & Honors",
+      "es": "Premios y Reconocimientos"
+    },
+    "subtitle": {
+      "en": "Recognitions received for academic and professional excellence.",
+      "es": "Reconocimientos obtenidos por excelencia académica y profesional."
     }
   },
   "awards": [
     {
-      "title": { 
-        "en": "1st Prize - Telematics Engineering Category", 
-        "es": "1º Premio - Categoría Ingeniería Telemática" 
+      "title": {
+        "en": "Best Academic Record (Class of 2025/2026) - Master in Internet of Things (IoT)",
+        "es": "Mejor expediente de la promoción 25/26 - Máster en el Internet de las Cosas (IoT)"
       },
       "prize": {
-        "en": "19th Edition of the COITT Future of Telecommunications Awards", 
+        "en": "Academic Excellence Award",
+        "es": "Premio a la Excelencia Académica"
+      },
+      "institution": "ETSIST - Universidad Politécnica de Madrid (UPM)",
+      "date": "October 2026",
+      "description": {
+        "en": "Distinction awarded for achieving the highest grade point average (GPA) in the graduating class of 2025/2026 in the Master of Science in Internet of Things (MIoT).",
+        "es": "Distinción concedida por obtener la calificación media más alta de la promoción de egresados 2025/2026 en el Máster Universitario en Internet de las Cosas (MIoT)."
+      },
+      "link": ""
+    },
+    {
+      "title": {
+        "en": "Best Master's Thesis Award (TFM) - Inetum Chair Awards 2026",
+        "es": "Premio Mejor Trabajo Fin de Máster (TFM) - Premios Cátedra Inetum 2026"
+      },
+      "prize": {
+        "en": "Inetum Chair Awards 2026 (Information Technology)",
+        "es": "Premios Cátedra Inetum 2026 (Ámbito Tecnologías de la Información)"
+      },
+      "institution": "Cátedra Inetum - Universidad Politécnica de Madrid (UPM)",
+      "date": "October 2026",
+      "description": {
+        "en": "Award for the Best Master's Thesis across the Universidad Politécnica de Madrid in Information Technologies (2025/2026 academic year) for the project 'An AI Inference and Automated Deployment Framework for IoT across the Edge-Cloud Continuum', developed at ETSIST and supervised by Prof. Vicente Hernández Díaz.",
+        "es": "Premio al Mejor TFM presentado y superado durante el curso 2025-26 en la Universidad Politécnica de Madrid en el ámbito de las Tecnologías de la Información por el trabajo «An AI Inference and Automated Deployment Framework for IoT across the Edge-Cloud Continuum», desarrollado en la ETSIST y tutorado por el profesor Vicente Hernández Díaz."
+      },
+      "link": "https://catedrainetum.ws.fi.upm.es/edicion-2026/"
+    },
+    {
+      "title": {
+        "en": "1st Prize - Telematics Engineering Category",
+        "es": "1º Premio - Categoría Ingeniería Telemática"
+      },
+      "prize": {
+        "en": "19th Edition of the COITT Future of Telecommunications Awards",
         "es": "XIX edición de los Premios COITT Futuro de las Telecomunicaciones"
       },
       "institution": "Colegio Oficial De Ingenieros Técnicos De Telecomunicaciones (COITT)",
       "date": "April 2026",
-      "description": { 
-        "en": "National award granted by the COITT University Network recognizing academic excellence and innovation in Bachelor's Theses. Awarded first place for the project 'Smart management system for unmanned autonomous vehicles in precision agriculture on edge'.", 
-        "es": "Galardón a nivel nacional otorgado por la Red de Universidades del COITT que reconoce la excelencia académica y la innovación en los Trabajos de Fin de Grado. Premiada con el primer puesto por el proyecto 'Smart management system for unmanned autonomous vehicles in precision agriculture on edge'." 
+      "description": {
+        "en": "National award granted by the COITT University Network recognizing academic excellence and innovation in Bachelor's Theses. Awarded first place for the project 'Smart management system for unmanned autonomous vehicles in precision agriculture on edge'.",
+        "es": "Galardón a nivel nacional otorgado por la Red de Universidades del COITT que reconoce la excelencia académica y la innovación en los Trabajos de Fin de Grado. Premiada con el primer puesto por el proyecto 'Smart management system for unmanned autonomous vehicles in precision agriculture on edge'."
       },
       "link": "https://www.telecos.zone/index.php/actualidad/noticias-coitt/1921-el-coitt-anuncia-los-ganadores-de-la-xix-edicion-de-los-premios-futuro-de-las-telecomunicaciones"
     },
     {
-      "title": { 
-        "en": "3rd Prize - Electronic Systems Engineering Category", 
-        "es": "3º Premio - Categoría Ingeniería de Sistemas Electrónicos" 
+      "title": {
+        "en": "3rd Prize - Electronic Systems Engineering Category",
+        "es": "3º Premio - Categoría Ingeniería de Sistemas Electrónicos"
       },
       "prize": {
-        "en": "19th Edition of the COITT Future of Telecommunications Awards", 
+        "en": "19th Edition of the COITT Future of Telecommunications Awards",
         "es": "XIX edición de los Premios COITT Futuro de las Telecomunicaciones"
       },
       "institution": "Colegio Oficial De Ingenieros Técnicos De Telecomunicaciones (COITT)",
       "date": "April 2026",
-      "description": { 
-        "en": "National award granted by the COITT University Network recognizing the excellence of Bachelor's Theses in the field of telecommunications. Awarded for the project 'Device for generating prescription maps using embedded AI in precision agriculture'.", 
-        "es": "Galardón a nivel nacional otorgado por la Red de Universidades del COITT que reconoce la excelencia de los Trabajos de Fin de Grado en el ámbito de las telecomunicaciones. Premiada por el proyecto 'Device for generating prescription maps using embedded AI in precision agriculture'." 
+      "description": {
+        "en": "National award granted by the COITT University Network recognizing the excellence of Bachelor's Theses in the field of telecommunications. Awarded for the project 'Device for generating prescription maps using embedded AI in precision agriculture'.",
+        "es": "Galardón a nivel nacional otorgado por la Red de Universidades del COITT que reconoce la excelencia de los Trabajos de Fin de Grado en el ámbito de las telecomunicaciones. Premiada por el proyecto 'Device for generating prescription maps using embedded AI in precision agriculture'."
       },
       "link": "https://www.telecos.zone/index.php/actualidad/noticias-coitt/1921-el-coitt-anuncia-los-ganadores-de-la-xix-edicion-de-los-premios-futuro-de-las-telecomunicaciones"
     }
