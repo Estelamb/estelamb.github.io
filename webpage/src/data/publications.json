@@ -86,8 +86,8 @@
         "es": "Desarrollado como parte del proyecto Horizon Europe NexTArc, este Trabajo Fin de Máster presenta AURA (AI Unified Runtime & Analytics), una plataforma MLOps distribuida diseñada para orquestar el ciclo de vida completo de modelos de IA en el continuum Edge-Cloud. Al abstraer la complejidad del despliegue específico en hardware heterogéneo y procesar la inferencia localmente en el edge, AURA permite la toma de decisiones en tiempo real bajo una estricta arquitectura de 'Privacidad desde el Diseño' para ciudades inteligentes sostenibles."
       },
       "prize": {
-        "en": "Best Master's Thesis Award (Inetum Chair Awards 2026)",
-        "es": "Premio Mejor TFM (Premios Cátedra Inetum 2026)"
+        "en": "Best Master's Thesis across UPM (Inetum Chair Awards 2026)",
+        "es": "Mejor TFM de la UPM (Premios Cátedra Inetum 2026)"
       }
     },
     {

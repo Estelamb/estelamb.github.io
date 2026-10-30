@@ -62,10 +62,16 @@
         "es": "Sept 2025 — July 2026"
       },
       "current": false,
-      "prize": {
-        "en": "Best Academic Record 2025/2026",
-        "es": "Mejor Expediente Promoción 25/26"
-      },
+      "prizes": [
+        {
+          "en": "Best Master's Thesis across UPM - Inetum Awards 2026",
+          "es": "Mejor TFM de la UPM - Premios Cátedra Inetum 2026"
+        },
+        {
+          "en": "Best Academic Record 2025/2026",
+          "es": "Mejor Expediente Promoción 25/26"
+        }
+      ],
       "link": "https://www.etsist.upm.es/estudios-ingenieria-sistemas-telecomunicaciones-madrid/masters-ingenieria-madrid/Master-IoT"
     },
     {
